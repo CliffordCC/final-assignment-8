@@ -33,6 +33,7 @@
 # 
 # ![Disney logo image](https://cdn.mos.cms.futurecdn.net/qfFFFhnM8LwZnjpTECN3oB-1920-80.jpg.webp)
 # 
+# 
 
 # # Methods and Results
 
@@ -40,7 +41,7 @@
 # 
 # I will start by my importing the relavent data frames some proform some visualizations to give me an overview of the types and data we will be working with and to identify and data wrangling that needs to be done.
 # 
-# ```{figure} ./frozen.png
+# ```{figure} images/question_mark.png
 # ---
 # width: 50%
 # name: frozen
