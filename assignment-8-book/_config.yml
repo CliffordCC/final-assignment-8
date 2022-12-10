@@ -21,8 +21,8 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
-  path_to_book: docs  # Optional path to your book, relative to the repository root
+  url: https://github.com/CliffordCC/final-assignment-8  # Online location of your book
+  path_to_book: final-assignment-8/assignment-8-book  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
@@ -30,3 +30,8 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+
+launch_buttons:
+  notebook_interface: "jupyterlab"  # or "classic"
+  thebe                  : true
+  binderhub_url: "https://mybinder.org"  # The URL for your BinderHub
