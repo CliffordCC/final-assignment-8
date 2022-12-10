@@ -3,7 +3,7 @@
 
 title: Assignment 8 book
 author: Clifford Childs
-logo: frozen.png
+logo: images/frozen.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
