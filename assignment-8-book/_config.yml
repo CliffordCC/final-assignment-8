@@ -1,9 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Assignment 8 Workbook
+title: Assignment 8 book
 author: Clifford Childs
-logo: logo.png
+logo: frozen.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
