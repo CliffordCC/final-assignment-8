@@ -41,13 +41,15 @@
 # 
 # I will start by my importing the relavent data frames some proform some visualizations to give me an overview of the types and data we will be working with and to identify and data wrangling that needs to be done.
 # 
+# ## Insert image 2
+# 
 # ```{figure} images/question_mark.png
 # ---
 # width: 50%
-# name: frozen
-# alt: Princess from frozen
+# name: question mark
+# alt: question mark
 # ---
-# Frozen image
+# question mark image
 # ```
 # 
 
@@ -247,6 +249,25 @@ voice_actor_plot
 
 
 
+# # block code 1
+# Below is the code used to generate the above graph:
+# 
+# ```python
+# #plot top 20 highest averages using altiar. input hidden
+# 
+# voice_actor_plot = (
+#     alt.Chart(rev_actor_group[:20], width=1000, height=300)
+#     .mark_bar()
+#     .encode(
+#         x=alt.X("voice-actor:N",sort="-y", title="Voice Actor"),
+#         y=alt.Y("inflation_adjusted_gross:Q", title="Average Movie Revenue"),
+#     )
+#     .properties(title="Figure 1: Top 20 Average Movie Revenue by Voice Actor inflation adjusted since 1999")
+# )
+# voice_actor_plot
+# ```
+# 
+
 # How many movies did each actor star in? 
 
 # In[16]:
@@ -280,7 +301,25 @@ count_actor_plot = (
 count_actor_plot
 
 
-# The above plost shows us the that there relatively few actors who have not more than one film since 1999. We can see that Kirsten Bell has the highest grossing average but has only starred in one movie.
+# ## Code block 2
+# 
+# Below is the code used to generate the above graph
+# 
+# ```python
+# count_actor_plot = (
+#     alt.Chart(count_actor_group[:20], width=1000, height=300)
+#     .mark_circle()
+#     .encode(
+#         x=alt.X("voice-actor:N",sort="-y", title="Voice Actor"),
+#         y=alt.Y("movie:Q", title="movie appearances"),
+#     )
+#     .properties(title="Figure 2: nummber of films by Voice Actor since 1999 (top 20 actors)")
+# )
+# count_actor_plot
+# ```
+# 
+
+# The above plot shows us the that there relatively few actors who have not more than one film since 1999. We can see that Kirsten Bell has the highest grossing average but has only starred in one movie.
 
 # Now I will create a function the reads in a dataframe and returns the counts and average of a specific columns for a specific string. This will be a helpful tool to quickly see how many movies a given actor has been in and how much revenue they have grossed on average per moive. However, it can also be used to get other interesting stats such as revenue by genre and it can be reused on any dataframe that contains columns with strings and columns with floats.
 
