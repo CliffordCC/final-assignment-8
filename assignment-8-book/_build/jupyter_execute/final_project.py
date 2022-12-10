@@ -29,12 +29,26 @@
 # 
 # The `Disney` dataset is composed of 5 tables `disney_movies_total_gross.csv`, `disney_revenue_1991-2016.csv`, `disney-characters.csv`, `disney-directors.csv`, `disney-voice-actors.csv`. Each table is stored as a `.csv` file. The data set contains the release dates, genre, rating, total gross and inflation adjust gross of all disney movies made to to 2016; disney reveunue by source from 1991 to 2016; disney's characters catagorized by charater type (villian or hero) and including columns for films starred in, films release dates and film theme song; a list of disney directors and the films they directed; and, a list of all disney voice actors and the films the appeared in.
 # 
+# ## Insert Image 1
+# 
+# ![Disney logo image](https://cdn.mos.cms.futurecdn.net/qfFFFhnM8LwZnjpTECN3oB-1920-80.jpg.webp)
+# 
 
 # # Methods and Results
 
 # Since I am interested in revenue by film and revenue by voice actor, I will only need to import `disney_movies_total_gross.csv` and `disney-voice-actors.csv` tables.
 # 
 # I will start by my importing the relavent data frames some proform some visualizations to give me an overview of the types and data we will be working with and to identify and data wrangling that needs to be done.
+# 
+# ```{figure} ./frozen.png
+# ---
+# width: 50%
+# name: frozen
+# alt: Princess from frozen
+# ---
+# Frozen image
+# ```
+# 
 
 # In[1]:
 
@@ -172,6 +186,30 @@ movie_rev_actor.sort_values(by='release_date', ascending=True).head()
 
 # Now lets take a look at average revenue by voice-actor.
 
+# ## Markdown with block math equations 1
+# 
+# ### This is equation used to calculate mean below
+# 
+# $$
+# {\bar{x} = {\frac {x_{1}+x_{2}+\cdots +x_{n}}{n}}}={\frac {1}{n}}\sum _{i=1}^{n}x_{i}
+# $$
+# 
+
+# ## Markdown with block math equations 2
+# 
+# Although not used below know the Median could also be useful. This is the equation used to calculate median:
+# 
+# $$
+# {Med{(X)} = X\Bigg[\frac {n+1}{2}\Bigg]\text{if n is odd}}
+# $$
+# $$
+# {Med{(X)} = \frac{X[\frac {n}{2}]+X[\frac{n}{2}+1]}{2}{\text{if n is even}}}
+# $$
+# Where X=ordered list
+# 
+# 
+# 
+
 # In[14]:
 
 
@@ -187,10 +225,12 @@ rev_actor_group.head()
 
 # Now lets plot out the top 20 actors by average revenue by movie.
 
+# # Hidden input graph 1
+
 # In[15]:
 
 
-#plot top 20 highest averages using altiar
+#plot top 20 highest averages using altiar. input hidden
 
 voice_actor_plot = (
     alt.Chart(rev_actor_group[:20], width=1000, height=300)
@@ -220,10 +260,12 @@ count_actor_group = count_actor_group.reset_index()
 count_actor_group.head()
 
 
+# # Hidden input graph 2
+
 # In[17]:
 
 
-#plot top 75 highest appearance in movies using altiar
+#plot top 75 highest appearance in movies using altiar input hidden
 
 count_actor_plot = (
     alt.Chart(count_actor_group[:20], width=1000, height=300)

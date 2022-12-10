@@ -50,9 +50,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="&lt;no title&gt;" href="function.html" />
+    <link rel="next" title="Function" href="function.html" />
     <link rel="prev" title="Introduction" href="intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -117,6 +119,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Final Project
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="function.html">
+   Function
   </a>
  </li>
  <li class="toctree-l1">
@@ -362,11 +369,45 @@ title="Print to PDF"
      Dataset description
     </a>
    </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#insert-image-1">
+     Insert Image 1
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#methods-and-results">
    Methods and Results
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#markdown-with-block-math-equations-1">
+     Markdown with block math equations 1
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#this-is-equation-used-to-calculate-mean-below">
+       This is equation used to calculate mean below
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#markdown-with-block-math-equations-2">
+     Markdown with block math equations 2
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hidden-input-graph-1">
+   Hidden input graph 1
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hidden-input-graph-2">
+   Hidden input graph 2
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
@@ -437,11 +478,45 @@ title="Print to PDF"
      Dataset description
     </a>
    </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#insert-image-1">
+     Insert Image 1
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#methods-and-results">
    Methods and Results
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#markdown-with-block-math-equations-1">
+     Markdown with block math equations 1
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#this-is-equation-used-to-calculate-mean-below">
+       This is equation used to calculate mean below
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#markdown-with-block-math-equations-2">
+     Markdown with block math equations 2
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hidden-input-graph-1">
+   Hidden input graph 1
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hidden-input-graph-2">
+   Hidden input graph 2
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
@@ -495,11 +570,21 @@ title="Print to PDF"
 Disney has produced many movies, this data has all Disney movies till 2016.”</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">Disney</span></code> dataset is composed of 5 tables <code class="docutils literal notranslate"><span class="pre">disney_movies_total_gross.csv</span></code>, <code class="docutils literal notranslate"><span class="pre">disney_revenue_1991-2016.csv</span></code>, <code class="docutils literal notranslate"><span class="pre">disney-characters.csv</span></code>, <code class="docutils literal notranslate"><span class="pre">disney-directors.csv</span></code>, <code class="docutils literal notranslate"><span class="pre">disney-voice-actors.csv</span></code>. Each table is stored as a <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file. The data set contains the release dates, genre, rating, total gross and inflation adjust gross of all disney movies made to to 2016; disney reveunue by source from 1991 to 2016; disney’s characters catagorized by charater type (villian or hero) and including columns for films starred in, films release dates and film theme song; a list of disney directors and the films they directed; and, a list of all disney voice actors and the films the appeared in.</p>
 </section>
+<section id="insert-image-1">
+<h2>Insert Image 1<a class="headerlink" href="#insert-image-1" title="Permalink to this headline">#</a></h2>
+<p><img alt="Disney logo image" src="https://cdn.mos.cms.futurecdn.net/qfFFFhnM8LwZnjpTECN3oB-1920-80.jpg.webp" /></p>
+</section>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="methods-and-results">
 <h1>Methods and Results<a class="headerlink" href="#methods-and-results" title="Permalink to this headline">#</a></h1>
 <p>Since I am interested in revenue by film and revenue by voice actor, I will only need to import <code class="docutils literal notranslate"><span class="pre">disney_movies_total_gross.csv</span></code> and <code class="docutils literal notranslate"><span class="pre">disney-voice-actors.csv</span></code> tables.</p>
 <p>I will start by my importing the relavent data frames some proform some visualizations to give me an overview of the types and data we will be working with and to identify and data wrangling that needs to be done.</p>
+<figure class="align-default" id="frozen">
+<a class="reference internal image-reference" href="_images/frozen.png"><img alt="Princess from frozen" src="_images/frozen.png" style="width: 50%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Frozen image</span><a class="headerlink" href="#frozen" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#import data libaries that will need for this project</span>
@@ -1228,6 +1313,28 @@ None
 </div></div></div>
 </div>
 <p>Now lets take a look at average revenue by voice-actor.</p>
+<section id="markdown-with-block-math-equations-1">
+<h2>Markdown with block math equations 1<a class="headerlink" href="#markdown-with-block-math-equations-1" title="Permalink to this headline">#</a></h2>
+<section id="this-is-equation-used-to-calculate-mean-below">
+<h3>This is equation used to calculate mean below<a class="headerlink" href="#this-is-equation-used-to-calculate-mean-below" title="Permalink to this headline">#</a></h3>
+<div class="math notranslate nohighlight">
+\[
+{\bar{x} = {\frac {x_{1}+x_{2}+\cdots +x_{n}}{n}}}={\frac {1}{n}}\sum _{i=1}^{n}x_{i}
+\]</div>
+</section>
+</section>
+<section id="markdown-with-block-math-equations-2">
+<h2>Markdown with block math equations 2<a class="headerlink" href="#markdown-with-block-math-equations-2" title="Permalink to this headline">#</a></h2>
+<p>Although not used below know the Median could also be useful. This is the equation used to calculate median:</p>
+<div class="math notranslate nohighlight">
+\[
+{Med{(X)} = X\Bigg[\frac {n+1}{2}\Bigg]\text{if n is odd}}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+{Med{(X)} = \frac{X[\frac {n}{2}]+X[\frac{n}{2}+1]}{2}{\text{if n is even}}}
+\]</div>
+<p>Where X=ordered list</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># group by voice actor and compute the average number of parts.</span>
@@ -1295,9 +1402,13 @@ None
 </div></div></div>
 </div>
 <p>Now lets plot out the top 20 actors by average revenue by movie.</p>
-<div class="cell docutils container">
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="hidden-input-graph-1">
+<h1>Hidden input graph 1<a class="headerlink" href="#hidden-input-graph-1" title="Permalink to this headline">#</a></h1>
+<div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#plot top 20 highest averages using altiar</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#plot top 20 highest averages using altiar. input hidden</span>
 
 <span class="n">voice_actor_plot</span> <span class="o">=</span> <span class="p">(</span>
     <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">rev_actor_group</span><span class="p">[:</span><span class="mi">20</span><span class="p">],</span> <span class="n">width</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
@@ -1314,13 +1425,13 @@ None
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-4a471664e66d40cf9eac4bf08391f09c"></div>
+<div id="altair-viz-d59c29c7433d4368af88114c03b91e29"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-4a471664e66d40cf9eac4bf08391f09c") {
-      outputDiv = document.getElementById("altair-viz-4a471664e66d40cf9eac4bf08391f09c");
+    if (outputDiv.id !== "altair-viz-d59c29c7433d4368af88114c03b91e29") {
+      outputDiv = document.getElementById("altair-viz-d59c29c7433d4368af88114c03b91e29");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -1435,9 +1546,12 @@ None
 </table>
 </div></div></div>
 </div>
-<div class="cell docutils container">
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="hidden-input-graph-2">
+<h1>Hidden input graph 2<a class="headerlink" href="#hidden-input-graph-2" title="Permalink to this headline">#</a></h1>
+<div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#plot top 75 highest appearance in movies using altiar</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#plot top 75 highest appearance in movies using altiar input hidden</span>
 
 <span class="n">count_actor_plot</span> <span class="o">=</span> <span class="p">(</span>
     <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">count_actor_group</span><span class="p">[:</span><span class="mi">20</span><span class="p">],</span> <span class="n">width</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
@@ -1454,13 +1568,13 @@ None
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-67983862f7174c43a801012bdc3f51a7"></div>
+<div id="altair-viz-09dcfa685de54579af187223435d69e8"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-67983862f7174c43a801012bdc3f51a7") {
-      outputDiv = document.getElementById("altair-viz-67983862f7174c43a801012bdc3f51a7");
+    if (outputDiv.id !== "altair-viz-09dcfa685de54579af187223435d69e8") {
+      outputDiv = document.getElementById("altair-viz-09dcfa685de54579af187223435d69e8");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -1528,15 +1642,15 @@ None
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>======================================================== test session starts ========================================================
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>================================================== test session starts ==================================================
 platform win32 -- Python 3.9.12, pytest-7.2.0, pluggy-1.0.0
 rootdir: C:\Users\cliff\final-assignment-8\assignment-8-book
 plugins: anyio-3.6.1
 collected 2 items
 
-scripts\final_test.py ..                                                                                                       [100%]
+scripts\final_test.py ..                                                                                           [100%]
 
-========================================================= 2 passed in 1.47s =========================================================
+=================================================== 2 passed in 2.28s ===================================================
 </pre></div>
 </div>
 </div>
@@ -1739,7 +1853,7 @@ scripts\final_test.py ..                                                        
     <a class='right-next' id="next-link" href="function.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">&lt;no title&gt;</p>
+        <p class="prev-next-title">Function</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
