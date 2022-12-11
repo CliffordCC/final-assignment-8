@@ -209,22 +209,26 @@ movie_rev_actor.sort_values(by='release_date', ascending=True).head()
 # 
 # ### This is equation used to calculate mean below
 # 
-# $$
+# ```{math}
+# :label: mean
 # {\bar{x} = {\frac {x_{1}+x_{2}+\cdots +x_{n}}{n}}}={\frac {1}{n}}\sum _{i=1}^{n}x_{i}
-# $$
+# ```
 # 
 
 # ## Markdown with block math equations 2
 # 
 # Although not used below know the Median could also be useful. This is the equation used to calculate median:
 # 
-# $$
+# ```{math}
+# :label: odd median
 # {Med{(X)} = X\Bigg[\frac {n+1}{2}\Bigg]\text{if n is odd}}
-# $$
-# $$
+# ```
+# ```{math}
+# :label: even median
 # {Med{(X)} = \frac{X[\frac {n}{2}]+X[\frac{n}{2}+1]}{2}{\text{if n is even}}}
-# $$
-# Where X=ordered list
+# +++
+# \text{Where X=ordered list}
+# ```
 # 
 # 
 # 

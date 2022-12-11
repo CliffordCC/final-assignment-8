@@ -285,12 +285,36 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cross-referencing">
+   Cross referencing
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -302,6 +326,19 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cross-referencing">
+   Cross referencing
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -311,21 +348,21 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="discussions">
 <h1>Discussions<a class="headerlink" href="#discussions" title="Permalink to this headline">#</a></h1>
-<p>In the analysis I tried compute average revenue of movies starred in by each voice actor and the average number of movies they had starred in since 1999. First I imported the relavant datasets and then using <code class="docutils literal notranslate"><span class="pre">.info()</span></code> looked at how the data was being stored. I then cleaned and and merged the <code class="docutils literal notranslate"><span class="pre">disney_voice_actor</span></code> dataset with the <code class="docutils literal notranslate"><span class="pre">disney_movies_total_revenue</span></code> data set. I then performed several visualizations that helped me answer my intitial question. I also created a function that pulls the the number of movies and average revenue per movie for a specfic actor. This acts a search function of the data. I is usefull for looking up specfic information on a specfic actor.</p>
+<p>In the analysis I tried compute average revenue of movies starred in by each voice actor and the average number of movies they had starred in since 1999. First I imported the relevant datasets and then using <code class="docutils literal notranslate"><span class="pre">.info()</span></code> looked at how the data was being stored. I then cleaned and and merged the <code class="docutils literal notranslate"><span class="pre">disney_voice_actor</span></code> dataset with the <code class="docutils literal notranslate"><span class="pre">disney_movies_total_revenue</span></code> data set. I then performed several visualizations that helped me answer my initial question. I also created a function that pulls the the number of movies and average revenue per movie for a specific actor. This acts a search function of the data. I is useful for looking up specific information on a specific actor.</p>
 <figure class="align-default" id="data-image">
 <a class="reference internal image-reference" href="_images/data-image.png"><img alt="data" src="_images/data-image.png" style="width: 50%;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 4 </span><span class="caption-text">Image of data science</span><a class="headerlink" href="#data-image" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>I was quite suprised by my results. Very few actors appeared in more that one movie since 1999. Further the actors who appeared in more films generally had a lower average movie revenue for the movies they starred in. I expected that disney would cast actors more often once they had a successfull movie but that does to appear to be what is happening. This could be becuase the genre and theme of the movie matter more than the actors who starred in them.</p>
+<p>I was quite suprised by my results. Very few actors appeared in more that one movie since 1999. Further the actors who appeared in more films generally had a lower average movie revenue for the movies they starred in. I expected that disney would cast actors more often once they had a successful movie but that does to appear to be what is happening. This could be because the genre and theme of the movie matter more than the actors who starred in them.</p>
 <figure class="align-default" id="results">
 <a class="reference internal image-reference" href="_images/results.png"><img alt="data" src="_images/results.png" style="width: 30%;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 5 </span><span class="caption-text">results image</span><a class="headerlink" href="#results" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>One interesting question to explore on this data could be to see if there is a correlation between average revenue by genre and number of movies created under that specific genre. It would be very interesting to compare the results of that analysis to my results. It could also be interesting to expand that analysis beyond just disney movies if those datasets exist. This would interesting becuase it would allow disney to begin focus that production budgets on genres and actors that on avergae earn the studio more revenue.</p>
+<p>One interesting question to explore on this data could be to see if there is a correlation between average revenue by genre and number of movies created under that specific genre. It would be very interesting to compare the results of that analysis to my results. It could also be interesting to expand that analysis beyond just disney movies if those datasets exist. This would interesting because it would allow disney to begin focus that production budgets on genres and actors that on average earn the studio more revenue.</p>
 <aside class="margin sidebar">
 <p class="sidebar-title">Did you know?</p>
 <p>This was my first ever data science project!</p>
@@ -338,9 +375,8 @@ title="Print to PDF"
 <p class="admonition-title">Tip</p>
 <p>Learning data science is hard but the most important tip I have received to to practice!</p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>‘’More useful statisical equations:’’</p>
+<div class="admonition-more-useful-statisical-equations admonition">
+<p class="admonition-title">More useful statisical equations:</p>
 <div class="math notranslate nohighlight">
 \[
 \text{Sample Slope:}
@@ -356,6 +392,20 @@ title="Print to PDF"
 \end{equation}
 \]</div>
 </div>
+<section id="cross-referencing">
+<h2>Cross referencing<a class="headerlink" href="#cross-referencing" title="Permalink to this headline">#</a></h2>
+<p>Here are links to some of important the figures and equations used in this notebook</p>
+<p><a class="reference internal" href="final_project.html#question-mark"><span class="std std-numref">Fig. 1</span></a>
+<a class="reference internal" href="function.html#kristen-bell"><span class="std std-numref">Fig. 2</span></a>
+<a class="reference internal" href="function.html#john-goodman"><span class="std std-numref">Fig. 3</span></a>
+<a class="reference internal" href="#data-image"><span class="std std-numref">Fig. 4</span></a>
+<a class="reference internal" href="#results"><span class="std std-numref">Fig. 5</span></a>
+<a class="reference internal" href="final_project.html#equation-mean">(3)</a>
+<a class="reference internal" href="final_project.html#equation-odd-median">(4)</a>
+<a class="reference internal" href="final_project.html#equation-even-median">(5)</a>
+<a class="reference internal" href="intro.html#equation-std-dev">(1)</a>
+<a class="reference internal" href="intro.html#equation-var">(2)</a></p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">

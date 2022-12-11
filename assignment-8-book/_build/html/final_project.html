@@ -1388,24 +1388,19 @@ None
 <h2>Markdown with block math equations 1<a class="headerlink" href="#markdown-with-block-math-equations-1" title="Permalink to this headline">#</a></h2>
 <section id="this-is-equation-used-to-calculate-mean-below">
 <h3>This is equation used to calculate mean below<a class="headerlink" href="#this-is-equation-used-to-calculate-mean-below" title="Permalink to this headline">#</a></h3>
-<div class="math notranslate nohighlight">
-\[
-{\bar{x} = {\frac {x_{1}+x_{2}+\cdots +x_{n}}{n}}}={\frac {1}{n}}\sum _{i=1}^{n}x_{i}
-\]</div>
+<div class="math notranslate nohighlight" id="equation-mean">
+<span class="eqno">(3)<a class="headerlink" href="#equation-mean" title="Permalink to this equation">#</a></span>\[{\bar{x} = {\frac {x_{1}+x_{2}+\cdots +x_{n}}{n}}}={\frac {1}{n}}\sum _{i=1}^{n}x_{i}\]</div>
 </section>
 </section>
 <section id="markdown-with-block-math-equations-2">
 <h2>Markdown with block math equations 2<a class="headerlink" href="#markdown-with-block-math-equations-2" title="Permalink to this headline">#</a></h2>
 <p>Although not used below know the Median could also be useful. This is the equation used to calculate median:</p>
-<div class="math notranslate nohighlight">
-\[
-{Med{(X)} = X\Bigg[\frac {n+1}{2}\Bigg]\text{if n is odd}}
-\]</div>
-<div class="math notranslate nohighlight">
-\[
-{Med{(X)} = \frac{X[\frac {n}{2}]+X[\frac{n}{2}+1]}{2}{\text{if n is even}}}
-\]</div>
-<p>Where X=ordered list</p>
+<div class="math notranslate nohighlight" id="equation-odd-median">
+<span class="eqno">(4)<a class="headerlink" href="#equation-odd-median" title="Permalink to this equation">#</a></span>\[{Med{(X)} = X\Bigg[\frac {n+1}{2}\Bigg]\text{if n is odd}}\]</div>
+<div class="math notranslate nohighlight" id="equation-even-median">
+<span class="eqno">(5)<a class="headerlink" href="#equation-even-median" title="Permalink to this equation">#</a></span>\[{Med{(X)} = \frac{X[\frac {n}{2}]+X[\frac{n}{2}+1]}{2}{\text{if n is even}}}
++++
+\text{Where X=ordered list}\]</div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># group by voice actor and compute the average number of parts.</span>
@@ -1496,13 +1491,13 @@ None
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-8f40c74573614f2e85cab8d70b7ae923"></div>
+<div id="altair-viz-e8550334292e4d19bfb9b29a3fc8e498"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-8f40c74573614f2e85cab8d70b7ae923") {
-      outputDiv = document.getElementById("altair-viz-8f40c74573614f2e85cab8d70b7ae923");
+    if (outputDiv.id !== "altair-viz-e8550334292e4d19bfb9b29a3fc8e498") {
+      outputDiv = document.getElementById("altair-viz-e8550334292e4d19bfb9b29a3fc8e498");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -1657,13 +1652,13 @@ None
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-2f3037de6b1c46eeb3586197de43ec82"></div>
+<div id="altair-viz-5eb552003ace4c9582bf6f4f2574a35b"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-2f3037de6b1c46eeb3586197de43ec82") {
-      outputDiv = document.getElementById("altair-viz-2f3037de6b1c46eeb3586197de43ec82");
+    if (outputDiv.id !== "altair-viz-5eb552003ace4c9582bf6f4f2574a35b") {
+      outputDiv = document.getElementById("altair-viz-5eb552003ace4c9582bf6f4f2574a35b");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -1754,7 +1749,7 @@ collected 2 items
 
 scripts\final_test.py ..                                                                                                                               [100%]
 
-===================================================================== 2 passed in 1.66s =====================================================================
+===================================================================== 2 passed in 0.77s =====================================================================
 </pre></div>
 </div>
 </div>
