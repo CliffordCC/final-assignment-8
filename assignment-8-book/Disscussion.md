@@ -48,6 +48,7 @@ $$
 \hat{\sigma} = \sqrt\frac{\sum(Y_i – \hat{Y}_i)^2} {n – 2}
 \end{equation}
 $$
+(Linares, 2015)
 ```
 ## Cross referencing
 Here are links to some of important the figures and equations used in this notebook
@@ -62,3 +63,20 @@ Here are links to some of important the figures and equations used in this noteb
 {eq}`even median`
 {eq}`Std Dev`
 {eq}`Var`
+
+# References
+
+Not all the work in this notebook is original. Some of the code was taken from various online sources including https://stackoverflow.com/, the various Modules and assigments in 'Python for Data Science' and the 'Sample Project'. I take no credit for parts that are not mine.
+
+A list of references can be found the reference.bib file in the public github repo linked at the top of this book
+
+## Resources used
+
+Data Souce:
+
+    `disney data set` provided through Python for Data Science
+
+Trouble shooting:
+
+    https://stackoverflow.com/  and modules 1 through 8 in Python for Data Science were used to trouble shoot the many errors I came accross.
+    
