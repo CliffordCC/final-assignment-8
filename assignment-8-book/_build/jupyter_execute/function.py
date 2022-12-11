@@ -29,7 +29,7 @@ from scripts import its_the_final_function as ff
 
 
 # Here is the code used the create the above function
-# #### code block 1
+# ## code block 1
 # 
 # ```python
 # 
@@ -94,7 +94,7 @@ from scripts import its_the_final_function as ff
 #     return(count, mean)
 # ```
 
-# ### Equation 1
+# ## Equation 1
 # 
 # The above function uses mean:
 # 
@@ -104,7 +104,7 @@ from scripts import its_the_final_function as ff
 # 
 # 
 
-# ### code block 2
+# ## code block 2
 # Here is the code used to create the below function test
 # 
 # ```python
@@ -288,9 +288,3 @@ genre_rev_pie
 # 
 # Source: https://linareskevin.wordpress.com/2015/09/17/linear-regression-equation-in-latex-using-texmaths-under-libreoffice/
 # 
-
-# In[ ]:
-
-
-
-

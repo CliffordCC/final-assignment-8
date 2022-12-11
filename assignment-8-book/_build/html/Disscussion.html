@@ -50,9 +50,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Function" href="function.html" />
+    <link rel="prev" title="Function and More exploration" href="function.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -120,7 +122,7 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="function.html">
-   Function
+   Function and More exploration
   </a>
  </li>
  <li class="toctree-l1 current active">
@@ -310,8 +312,48 @@ title="Print to PDF"
   <section class="tex2jax_ignore mathjax_ignore" id="discussions">
 <h1>Discussions<a class="headerlink" href="#discussions" title="Permalink to this headline">#</a></h1>
 <p>In the analysis I tried compute average revenue of movies starred in by each voice actor and the average number of movies they had starred in since 1999. First I imported the relavant datasets and then using <code class="docutils literal notranslate"><span class="pre">.info()</span></code> looked at how the data was being stored. I then cleaned and and merged the <code class="docutils literal notranslate"><span class="pre">disney_voice_actor</span></code> dataset with the <code class="docutils literal notranslate"><span class="pre">disney_movies_total_revenue</span></code> data set. I then performed several visualizations that helped me answer my intitial question. I also created a function that pulls the the number of movies and average revenue per movie for a specfic actor. This acts a search function of the data. I is usefull for looking up specfic information on a specfic actor.</p>
+<figure class="align-default" id="data-image">
+<a class="reference internal image-reference" href="_images/data-image.png"><img alt="data" src="_images/data-image.png" style="width: 50%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Image of data science</span><a class="headerlink" href="#data-image" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p>I was quite suprised by my results. Very few actors appeared in more that one movie since 1999. Further the actors who appeared in more films generally had a lower average movie revenue for the movies they starred in. I expected that disney would cast actors more often once they had a successfull movie but that does to appear to be what is happening. This could be becuase the genre and theme of the movie matter more than the actors who starred in them.</p>
+<figure class="align-default" id="results">
+<a class="reference internal image-reference" href="_images/results.png"><img alt="data" src="_images/results.png" style="width: 30%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">results image</span><a class="headerlink" href="#results" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p>One interesting question to explore on this data could be to see if there is a correlation between average revenue by genre and number of movies created under that specific genre. It would be very interesting to compare the results of that analysis to my results. It could also be interesting to expand that analysis beyond just disney movies if those datasets exist. This would interesting becuase it would allow disney to begin focus that production budgets on genres and actors that on avergae earn the studio more revenue.</p>
+<aside class="margin sidebar">
+<p class="sidebar-title">Did you know?</p>
+<p>This was my first ever data science project!</p>
+</aside>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>My analysis in the book is only the beginning of what is possible with the powers of data science! Many more insights are left to be made.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Learning data science is hard but the most important tip I have received to to practice!</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>More useful statisical equations
+Sample Slope
+$<span class="math notranslate nohighlight">\(
+\begin{equation}
+\hat{\beta}_1 = \frac{\sum(X_i – \bar{X}) (Y_i – \bar{Y})} {\sum(X_i – \bar{X})^2}
+\end{equation}
+\)</span><span class="math notranslate nohighlight">\(
+\)</span><span class="math notranslate nohighlight">\(
+Conditional Standard Deviation:
+\begin{equation}
+\hat{\sigma} = \sqrt\frac{\sum(Y_i – \hat{Y}_i)^2} {n – 2}
+\end{equation}
+\)</span>$</p>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -345,7 +387,7 @@ title="Print to PDF"
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Function</p>
+            <p class="prev-next-title">Function and More exploration</p>
         </div>
     </a>
 </div>
