@@ -33,18 +33,20 @@ Where X = ordered list
 
 ### Standard Deviation:
 
-$$
+```{math}
+:label: Std Dev
 \sigma = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
-$$
+```
 ```{margin} Did you know?
 Did you know the Karl Pearson introduced procedure and term standard deviation to statistics in 1892.
 ```
 
 ###  Variance:
 
-$$
+```{math}
+:label: Var
 \sigma ^2 = {\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
-$$
+```
 
 ```{tip} 
 Std dev is just the square root of the variance [https://www.encyclopedia.com/science-and-technology/mathematics/mathematics/standard-deviation]
