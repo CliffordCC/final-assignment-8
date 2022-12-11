@@ -1,0 +1,617 @@
+,index_x,movie,release_date,genre,MPAA_rating,total_gross,inflation_adjusted_gross,index_y,character,voice-actor
+0,0,Snow White and the Seven Dwarfs,1937-12-21,Musical,G,184925485.0,5228953251.0,80,Bashful,Scotty Mattraw
+1,0,Snow White and the Seven Dwarfs,1937-12-21,Musical,G,184925485.0,5228953251.0,237,Doc,Roy Atwell
+2,0,Snow White and the Seven Dwarfs,1937-12-21,Musical,G,184925485.0,5228953251.0,248,Dopey,Eddie Collins
+3,0,Snow White and the Seven Dwarfs,1937-12-21,Musical,G,184925485.0,5228953251.0,382,Grumpy,Pinto Colvig
+4,0,Snow White and the Seven Dwarfs,1937-12-21,Musical,G,184925485.0,5228953251.0,389,Happy,Otis Harlan
+5,0,Snow White and the Seven Dwarfs,1937-12-21,Musical,G,184925485.0,5228953251.0,412,Humbert the Huntsman,Stuart Buchanan
+6,0,Snow White and the Seven Dwarfs,1937-12-21,Musical,G,184925485.0,5228953251.0,534,The Magic Mirror,Moroni Olsen
+7,0,Snow White and the Seven Dwarfs,1937-12-21,Musical,G,184925485.0,5228953251.0,696,Prince,Harry Stockwell
+8,0,Snow White and the Seven Dwarfs,1937-12-21,Musical,G,184925485.0,5228953251.0,724,Queen Grimhilde,Lucille La Verne
+9,0,Snow White and the Seven Dwarfs,1937-12-21,Musical,G,184925485.0,5228953251.0,802,Sleepy,Pinto Colvig
+10,0,Snow White and the Seven Dwarfs,1937-12-21,Musical,G,184925485.0,5228953251.0,806,Sneezy,Billy Gilbert
+11,0,Snow White and the Seven Dwarfs,1937-12-21,Musical,G,184925485.0,5228953251.0,807,Snow White,Adriana Caselotti
+12,1,Pinocchio,1940-02-09,Adventure,G,84300000.0,2188229052.0,112,Blue Fairy,Evelyn Venable
+14,1,Pinocchio,1940-02-09,Adventure,G,84300000.0,2188229052.0,191,The Coachman,Charles Judels
+15,1,Pinocchio,1940-02-09,Adventure,G,84300000.0,2188229052.0,313,Figaro the Cat,Mel Blanc
+16,1,Pinocchio,1940-02-09,Adventure,G,84300000.0,2188229052.0,355,Geppetto,Christian Rub
+17,1,Pinocchio,1940-02-09,Adventure,G,84300000.0,2188229052.0,357,Gideon,Mel Blanc
+18,1,Pinocchio,1940-02-09,Adventure,G,84300000.0,2188229052.0,424,J. Worthington Foulfellow,Walter Catlett
+19,1,Pinocchio,1940-02-09,Adventure,G,84300000.0,2188229052.0,440,Jiminy Cricket,Cliff Edwards; Eddie Carroll
+20,1,Pinocchio,1940-02-09,Adventure,G,84300000.0,2188229052.0,494,Lampwick,Frankie Darro
+21,1,Pinocchio,1940-02-09,Adventure,G,84300000.0,2188229052.0,588,Monstro,Thurl Ravenscroft
+22,1,Pinocchio,1940-02-09,Adventure,G,84300000.0,2188229052.0,684,Pinocchio,Dickie Jones
+23,1,Pinocchio,1940-02-09,Adventure,G,84300000.0,2188229052.0,819,Stromboli,Charles Judels
+24,2,Fantasia,1940-11-13,Musical,G,83320000.0,2187090808.0,90,Ben Ali Gator,Jim Cummings
+25,2,Fantasia,1940-11-13,Musical,G,83320000.0,2187090808.0,167,Chernabog,Corey Burton
+26,2,Fantasia,1940-11-13,Musical,G,83320000.0,2187090808.0,414,Hyacinth Hippo,Tress MacNeille
+27,2,Fantasia,1940-11-13,Musical,G,83320000.0,2187090808.0,530,Madame Upanova,Tress MacNeille
+29,2,Fantasia,1940-11-13,Musical,G,83320000.0,2187090808.0,924,Yen Sid,Corey Burton
+30,3,Song of the South,1946-11-12,Adventure,G,65000000.0,1078510579.0,123,Br'er Bear,Nick Stewart
+31,3,Song of the South,1946-11-12,Adventure,G,65000000.0,1078510579.0,124,Br'er Fox,James Baskett
+32,3,Song of the South,1946-11-12,Adventure,G,65000000.0,1078510579.0,125,Br'er Rabbit,Johnny Lee
+33,4,Cinderella,1950-02-15,Drama,G,85000000.0,920608730.0,24,Anastasia Tremaine,Lucille Bliss
+34,4,Cinderella,1950-02-15,Drama,G,85000000.0,920608730.0,127,Bruno the Dog,Jimmy MacDonald; Frank Welker
+35,4,Cinderella,1950-02-15,Drama,G,85000000.0,920608730.0,179,Cinderella,Ilene Woods
+36,4,Cinderella,1950-02-15,Drama,G,85000000.0,920608730.0,247,The Doorman,Don Barclay
+37,4,Cinderella,1950-02-15,Drama,G,85000000.0,920608730.0,262,Drizella Tremaine,Rhoda Williams; Russi Taylor
+38,4,Cinderella,1950-02-15,Drama,G,85000000.0,920608730.0,293,Fairy Godmother,Verna Felton; Russi Taylor
+39,4,Cinderella,1950-02-15,Drama,G,85000000.0,920608730.0,330,Footman,Larry Grey
+40,4,Cinderella,1950-02-15,Drama,G,85000000.0,920608730.0,373,The Grand Duke,Luis Van Rooten; Rob Paulsen
+41,4,Cinderella,1950-02-15,Drama,G,85000000.0,920608730.0,384,Gus Lollygagger,Jimmy MacDonald; Corey Burton
+42,4,Cinderella,1950-02-15,Drama,G,85000000.0,920608730.0,426,"Jackson ""Jaq"" Hopscotch",Jimmy MacDonald; Rob Paulsen
+43,4,Cinderella,1950-02-15,Drama,G,85000000.0,920608730.0,465,The King,Luis Van Rooten
+44,4,Cinderella,1950-02-15,Drama,G,85000000.0,920608730.0,492,Lady Tremaine,Eleanor Audley; Susanne Blakeslee
+45,4,Cinderella,1950-02-15,Drama,G,85000000.0,920608730.0,516,Lucifer the Cat,June Foray
+47,4,Cinderella,1950-02-15,Drama,G,85000000.0,920608730.0,697,Prince Charming,William Phipps
+48,556,Cinderella,2015-03-13,Drama,PG,201151353.0,201151353.0,24,Anastasia Tremaine,Lucille Bliss
+49,556,Cinderella,2015-03-13,Drama,PG,201151353.0,201151353.0,127,Bruno the Dog,Jimmy MacDonald; Frank Welker
+50,556,Cinderella,2015-03-13,Drama,PG,201151353.0,201151353.0,179,Cinderella,Ilene Woods
+51,556,Cinderella,2015-03-13,Drama,PG,201151353.0,201151353.0,247,The Doorman,Don Barclay
+52,556,Cinderella,2015-03-13,Drama,PG,201151353.0,201151353.0,262,Drizella Tremaine,Rhoda Williams; Russi Taylor
+53,556,Cinderella,2015-03-13,Drama,PG,201151353.0,201151353.0,293,Fairy Godmother,Verna Felton; Russi Taylor
+54,556,Cinderella,2015-03-13,Drama,PG,201151353.0,201151353.0,330,Footman,Larry Grey
+55,556,Cinderella,2015-03-13,Drama,PG,201151353.0,201151353.0,373,The Grand Duke,Luis Van Rooten; Rob Paulsen
+56,556,Cinderella,2015-03-13,Drama,PG,201151353.0,201151353.0,384,Gus Lollygagger,Jimmy MacDonald; Corey Burton
+57,556,Cinderella,2015-03-13,Drama,PG,201151353.0,201151353.0,426,"Jackson ""Jaq"" Hopscotch",Jimmy MacDonald; Rob Paulsen
+58,556,Cinderella,2015-03-13,Drama,PG,201151353.0,201151353.0,465,The King,Luis Van Rooten
+59,556,Cinderella,2015-03-13,Drama,PG,201151353.0,201151353.0,492,Lady Tremaine,Eleanor Audley; Susanne Blakeslee
+60,556,Cinderella,2015-03-13,Drama,PG,201151353.0,201151353.0,516,Lucifer the Cat,June Foray
+62,556,Cinderella,2015-03-13,Drama,PG,201151353.0,201151353.0,697,Prince Charming,William Phipps
+63,6,Lady and the Tramp,1955-06-22,Drama,G,93600000.0,1236035515.0,11,Al the Alligator,Thurl Ravenscroft
+64,6,Lady and the Tramp,1955-06-22,Drama,G,93600000.0,1236035515.0,53,Aunt Sarah,Verna Felton
+65,6,Lady and the Tramp,1955-06-22,Drama,G,93600000.0,1236035515.0,86,Beaver,Stan Freberg
+66,6,Lady and the Tramp,1955-06-22,Drama,G,93600000.0,1236035515.0,218,Darling,Peggy Lee
+67,6,Lady and the Tramp,1955-06-22,Drama,G,93600000.0,1236035515.0,438,Jim Dear,Lee Millar
+68,6,Lady and the Tramp,1955-06-22,Drama,G,93600000.0,1236035515.0,442,Jock,Bill Thompson
+69,6,Lady and the Tramp,1955-06-22,Drama,G,93600000.0,1236035515.0,488,Lady,Barbara Luddy
+70,6,Lady and the Tramp,1955-06-22,Drama,G,93600000.0,1236035515.0,663,Peg,Peggy Lee
+71,6,Lady and the Tramp,1955-06-22,Drama,G,93600000.0,1236035515.0,790,Si & Am,Peggy Lee
+72,6,Lady and the Tramp,1955-06-22,Drama,G,93600000.0,1236035515.0,873,Tramp,Larry Roberts
+73,6,Lady and the Tramp,1955-06-22,Drama,G,93600000.0,1236035515.0,875,Trusty,Bill Baucom
+74,7,Sleeping Beauty,1959-01-29,Drama,,9464608.0,21505832.0,56,Aurora,Mary Costa
+76,7,Sleeping Beauty,1959-01-29,Drama,,9464608.0,21505832.0,300,Fauna,Barbara Jo Allen
+77,7,Sleeping Beauty,1959-01-29,Drama,,9464608.0,21505832.0,324,Flora,Verna Felton
+78,7,Sleeping Beauty,1959-01-29,Drama,,9464608.0,21505832.0,469,King Hubert,Bill Thompson
+79,7,Sleeping Beauty,1959-01-29,Drama,,9464608.0,21505832.0,475,King Stefan,Taylor Holmes
+80,7,Sleeping Beauty,1959-01-29,Drama,,9464608.0,21505832.0,539,Maleficent,Eleanor Audley
+81,7,Sleeping Beauty,1959-01-29,Drama,,9464608.0,21505832.0,570,Merryweather,Barbara Luddy
+82,7,Sleeping Beauty,1959-01-29,Drama,,9464608.0,21505832.0,704,Prince Phillip,Bill Shirley
+83,7,Sleeping Beauty,1959-01-29,Drama,,9464608.0,21505832.0,725,Queen Leah,Barbara Dirikson
+84,8,101 Dalmatians,1961-01-25,Comedy,G,153000000.0,1362870985.0,30,Anita Radcliffe,Lisa Davis
+85,8,101 Dalmatians,1961-01-25,Comedy,G,153000000.0,1362870985.0,197,The Colonel,J. Pat O'Malley
+86,8,101 Dalmatians,1961-01-25,Comedy,G,153000000.0,1362870985.0,208,Cruella de Vil,Betty Lou Gerson
+87,8,101 Dalmatians,1961-01-25,Comedy,G,153000000.0,1362870985.0,407,Horace & Jasper,Frederick Worlock; J. Pat O'Malley
+88,8,101 Dalmatians,1961-01-25,Comedy,G,153000000.0,1362870985.0,674,Perdita,Cate Bauer
+89,8,101 Dalmatians,1961-01-25,Comedy,G,153000000.0,1362870985.0,692,Pongo,Rod Taylor
+90,8,101 Dalmatians,1961-01-25,Comedy,G,153000000.0,1362870985.0,749,Roger Radcliffe,Ben Wright
+91,8,101 Dalmatians,1961-01-25,Comedy,G,153000000.0,1362870985.0,782,Sgt. Tibbs,David Frankham
+92,252,101 Dalmatians,1996-11-27,Comedy,G,136189294.0,258728898.0,30,Anita Radcliffe,Lisa Davis
+93,252,101 Dalmatians,1996-11-27,Comedy,G,136189294.0,258728898.0,197,The Colonel,J. Pat O'Malley
+94,252,101 Dalmatians,1996-11-27,Comedy,G,136189294.0,258728898.0,208,Cruella de Vil,Betty Lou Gerson
+95,252,101 Dalmatians,1996-11-27,Comedy,G,136189294.0,258728898.0,407,Horace & Jasper,Frederick Worlock; J. Pat O'Malley
+96,252,101 Dalmatians,1996-11-27,Comedy,G,136189294.0,258728898.0,674,Perdita,Cate Bauer
+97,252,101 Dalmatians,1996-11-27,Comedy,G,136189294.0,258728898.0,692,Pongo,Rod Taylor
+98,252,101 Dalmatians,1996-11-27,Comedy,G,136189294.0,258728898.0,749,Roger Radcliffe,Ben Wright
+99,252,101 Dalmatians,1996-11-27,Comedy,G,136189294.0,258728898.0,782,Sgt. Tibbs,David Frankham
+100,12,The Sword in the Stone,1963-12-25,Adventure,,22182353.0,153870834.0,39,Archimedes,Junius Matthews
+101,12,The Sword in the Stone,1963-12-25,Adventure,,22182353.0,153870834.0,43,Arthur/Wart,Rickie Sorensen
+102,12,The Sword in the Stone,1963-12-25,Adventure,,22182353.0,153870834.0,44,Arthur/Wart,Richard Reitherman
+103,12,The Sword in the Stone,1963-12-25,Adventure,,22182353.0,153870834.0,45,Arthur/Wart,Robert Reitherman
+104,12,The Sword in the Stone,1963-12-25,Adventure,,22182353.0,153870834.0,109,Black Bart,Thurl Ravenscroft
+105,12,The Sword in the Stone,1963-12-25,Adventure,,22182353.0,153870834.0,529,Madam Mim,Martha Wentworth
+106,12,The Sword in the Stone,1963-12-25,Adventure,,22182353.0,153870834.0,568,Merlin,Karl Swenson
+107,12,The Sword in the Stone,1963-12-25,Adventure,,22182353.0,153870834.0,794,Sir Ector,Sebastian Cabot
+108,12,The Sword in the Stone,1963-12-25,Adventure,,22182353.0,153870834.0,797,Sir Kay,Norman Alden
+109,12,The Sword in the Stone,1963-12-25,Adventure,,22182353.0,153870834.0,798,Sir Pellinore,Alan Napier
+110,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,10,Akela,John Abbott
+111,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,67,Bagheera,Sebastian Cabot
+112,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,72,Baloo Bear,Phil Harris
+113,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,140,Buzzie the Vulture,J. Pat O'Malley
+114,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,198,Colonel Hathi,J. Pat O'Malley
+115,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,235,Dizzie the Vulture,Lord Tim Hudson
+116,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,299,Father Wolf,Ben Wright
+117,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,320,Flaps the Vulture,Chad Stuart
+118,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,328,Flunkey the Baboon,Leo De Lyon
+119,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,454,Junior,Clint Howard
+120,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,456,Kaa,Sterling Holloway; Jim Cummings
+121,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,472,King Louie,Louis Prima
+122,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,599,Mowgli,Bruce Reitherman
+123,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,784,Shanti (The Girl),Darleen Carr
+124,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,787,Shere Khan,George Sanders
+125,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,911,Winifred the Elephant,Verna Felton
+126,13,The Jungle Book,1967-10-18,Musical,Not Rated,141843000.0,789612346.0,931,Ziggy the Vulture,Digby Wolfe
+127,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,10,Akela,John Abbott
+128,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,67,Bagheera,Sebastian Cabot
+129,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,72,Baloo Bear,Phil Harris
+130,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,140,Buzzie the Vulture,J. Pat O'Malley
+131,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,198,Colonel Hathi,J. Pat O'Malley
+132,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,235,Dizzie the Vulture,Lord Tim Hudson
+133,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,299,Father Wolf,Ben Wright
+134,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,320,Flaps the Vulture,Chad Stuart
+135,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,328,Flunkey the Baboon,Leo De Lyon
+136,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,454,Junior,Clint Howard
+137,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,456,Kaa,Sterling Holloway; Jim Cummings
+138,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,472,King Louie,Louis Prima
+139,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,599,Mowgli,Bruce Reitherman
+140,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,784,Shanti (The Girl),Darleen Carr
+141,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,787,Shere Khan,George Sanders
+142,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,911,Winifred the Elephant,Verna Felton
+143,194,The Jungle Book,1994-12-25,Adventure,PG,44342956.0,88930321.0,931,Ziggy the Vulture,Digby Wolfe
+144,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,10,Akela,John Abbott
+145,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,67,Bagheera,Sebastian Cabot
+146,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,72,Baloo Bear,Phil Harris
+147,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,140,Buzzie the Vulture,J. Pat O'Malley
+148,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,198,Colonel Hathi,J. Pat O'Malley
+149,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,235,Dizzie the Vulture,Lord Tim Hudson
+150,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,299,Father Wolf,Ben Wright
+151,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,320,Flaps the Vulture,Chad Stuart
+152,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,328,Flunkey the Baboon,Leo De Lyon
+153,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,454,Junior,Clint Howard
+154,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,456,Kaa,Sterling Holloway; Jim Cummings
+155,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,472,King Louie,Louis Prima
+156,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,599,Mowgli,Bruce Reitherman
+157,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,784,Shanti (The Girl),Darleen Carr
+158,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,787,Shere Khan,George Sanders
+159,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,911,Winifred the Elephant,Verna Felton
+160,567,The Jungle Book,2016-04-15,Adventure,PG,364001123.0,364001123.0,931,Ziggy the Vulture,Digby Wolfe
+161,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,1,Abigail Gabble,Monica Evans
+162,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,21,Amelia Gabble,Carole Shelley
+163,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,97,Berlioz,Dean Clark
+164,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,104,Billy Boss,Thurl Ravenscroft
+165,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,263,Duchess,Eva Gabor
+166,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,272,Edgar Balthazar the Butler,Roddy Maude-Roxby
+167,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,343,Frou-Frou,Nancy Kulp
+168,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,353,Georges Hautecourt,Charles Lane
+169,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,403,Hit Cat the English Cat,Lord Tim Hudson
+170,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,493,Lafayette the Basset Hound,George Lindsey
+171,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,527,Madame Adelaide Bonfamille,Hermione Baddeley
+172,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,545,Marie,Liz English
+173,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,629,Napoleon the Bloodhound,Pat Buttram
+174,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,671,Peppo the Italian Cat,Vito Scotti
+175,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,754,Roquefort the Mouse,Sterling Holloway
+176,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,774,Scat Cat,Scatman Crothers
+177,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,789,Shun Gon the Chinese Cat,Paul Winchell
+178,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,847,Thomas O'Malley,Phil Harris
+179,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,872,Toulouse,Gary Dubin
+180,15,The Aristocats,1970-04-24,Musical,G,55675257.0,255161499.0,884,Uncle Waldo,Bill Thompson
+181,17,Bedknobs and Broomsticks,1971-10-07,Musical,,17871174.0,91305448.0,83,Bear,Dal McKennon
+182,17,Bedknobs and Broomsticks,1971-10-07,Musical,,17871174.0,91305448.0,193,Codfish,Robert Holt
+183,17,Bedknobs and Broomsticks,1971-10-07,Musical,,17871174.0,91305448.0,471,King Leonidas,Lennie Weinrib
+184,17,Bedknobs and Broomsticks,1971-10-07,Musical,,17871174.0,91305448.0,780,Secretary Bird,Lennie Weinrib
+185,21,The Rescuers,1977-06-22,Adventure,,48775599.0,159743914.0,98,Bernard,Bob Newheart
+186,21,The Rescuers,1977-06-22,Adventure,,48775599.0,159743914.0,129,Brutus and Nero,Candy Candido
+187,21,The Rescuers,1977-06-22,Adventure,,48775599.0,159743914.0,161,Chair Mouse,Bernard Fox
+188,21,The Rescuers,1977-06-22,Adventure,,48775599.0,159743914.0,228,Digger the Mole,Dub Taylor
+189,21,The Rescuers,1977-06-22,Adventure,,48775599.0,159743914.0,279,Ellie Mae,Jeanette Nolan
+190,21,The Rescuers,1977-06-22,Adventure,,48775599.0,159743914.0,289,Evinrude,Jimmy MacDonald
+191,21,The Rescuers,1977-06-22,Adventure,,48775599.0,159743914.0,371,Gramps,Larry Clemmons
+192,21,The Rescuers,1977-06-22,Adventure,,48775599.0,159743914.0,521,Luke,Pat Buttram
+193,21,The Rescuers,1977-06-22,Adventure,,48775599.0,159743914.0,528,Madame Medusa,Geraldine Page
+194,21,The Rescuers,1977-06-22,Adventure,,48775599.0,159743914.0,581,Miss Bianca,Eva Gabor
+195,21,The Rescuers,1977-06-22,Adventure,,48775599.0,159743914.0,605,Mr. Snoops,Joe Flynn
+196,21,The Rescuers,1977-06-22,Adventure,,48775599.0,159743914.0,652,Orville,Jim Jordan
+197,21,The Rescuers,1977-06-22,Adventure,,48775599.0,159743914.0,668,Penny,Michelle Stacy
+198,21,The Rescuers,1977-06-22,Adventure,,48775599.0,159743914.0,760,Rufus,John McIntire
+199,28,The Fox and the Hound,1981-07-10,Comedy,,43899231.0,133118889.0,22,Amos Slade,Jack Albertson
+200,28,The Fox and the Hound,1981-07-10,Comedy,,43899231.0,133118889.0,101,Big Mama,Pearl Bailey
+201,28,The Fox and the Hound,1981-07-10,Comedy,,43899231.0,133118889.0,118,Boomer,Paul Winchell
+202,28,The Fox and the Hound,1981-07-10,Comedy,,43899231.0,133118889.0,172,Chief,Pat Buttram
+203,28,The Fox and the Hound,1981-07-10,Comedy,,43899231.0,133118889.0,201,Copper,Corey Feldman; Kurt Russell
+204,28,The Fox and the Hound,1981-07-10,Comedy,,43899231.0,133118889.0,232,Dinky,Richard Bakalyan
+206,28,The Fox and the Hound,1981-07-10,Comedy,,43899231.0,133118889.0,869,Tod,Keith Coogan; Mickey Rooney
+207,28,The Fox and the Hound,1981-07-10,Comedy,,43899231.0,133118889.0,894,Vixey,Sandy Duncan
+208,28,The Fox and the Hound,1981-07-10,Comedy,,43899231.0,133118889.0,905,Widow Tweed,Jeanette Nolan
+209,41,The Black Cauldron,1985-07-24,Adventure,,21288692.0,50553142.0,205,Creeper,Phil Fondacaro
+210,41,The Black Cauldron,1985-07-24,Adventure,,21288692.0,50553142.0,214,Dallben,Freddie Jones
+211,41,The Black Cauldron,1985-07-24,Adventure,,21288692.0,50553142.0,242,Doli,John Byner
+212,41,The Black Cauldron,1985-07-24,Adventure,,21288692.0,50553142.0,307,Fflewddur Fflam,Nigel Hawthorne
+213,41,The Black Cauldron,1985-07-24,Adventure,,21288692.0,50553142.0,383,Gurgi,John Byner
+215,41,The Black Cauldron,1985-07-24,Adventure,,21288692.0,50553142.0,409,The Horned King,John Hurt
+216,41,The Black Cauldron,1985-07-24,Adventure,,21288692.0,50553142.0,468,King Eiddileg,Arthur Malet
+217,41,The Black Cauldron,1985-07-24,Adventure,,21288692.0,50553142.0,650,Orddu,Eda Reiss Merin
+218,41,The Black Cauldron,1985-07-24,Adventure,,21288692.0,50553142.0,651,Orgoch,Billie Hayes
+219,41,The Black Cauldron,1985-07-24,Adventure,,21288692.0,50553142.0,653,Orwen,Adele Malis-Morey
+220,41,The Black Cauldron,1985-07-24,Adventure,,21288692.0,50553142.0,707,Princess Eilonwy,Susan Sheridan
+221,41,The Black Cauldron,1985-07-24,Adventure,,21288692.0,50553142.0,837,Taran,Grant Bardsley
+222,48,The Great Mouse Detective,1986-07-02,Adventure,,23605534.0,53637367.0,79,Bartholomew,Barrie Ingham
+223,48,The Great Mouse Detective,1986-07-02,Adventure,,23605534.0,53637367.0,81,Basil of Baker Street,Barrie Ingham
+224,48,The Great Mouse Detective,1986-07-02,Adventure,,23605534.0,53637367.0,253,Dr. David Q. Dawson,Val Bettin
+225,48,The Great Mouse Detective,1986-07-02,Adventure,,23605534.0,53637367.0,302,Felicia the Cat,Frank Welker
+226,48,The Great Mouse Detective,1986-07-02,Adventure,,23605534.0,53637367.0,308,Fidget,Candy Candido
+227,48,The Great Mouse Detective,1986-07-02,Adventure,,23605534.0,53637367.0,402,Hiram Flaversham,Alan Young; Alan Young
+228,48,The Great Mouse Detective,1986-07-02,Adventure,,23605534.0,53637367.0,491,Lady Mouse,Shani Wallis
+229,48,The Great Mouse Detective,1986-07-02,Adventure,,23605534.0,53637367.0,582,Miss Kitty,Melissa Manchester
+230,48,The Great Mouse Detective,1986-07-02,Adventure,,23605534.0,53637367.0,612,Mrs. Judson,Diana Chesney
+231,48,The Great Mouse Detective,1986-07-02,Adventure,,23605534.0,53637367.0,647,Olivia Flaversham,Susanne Pollatschek
+232,48,The Great Mouse Detective,1986-07-02,Adventure,,23605534.0,53637367.0,713,Professor Ratigan,Vincent Price
+233,48,The Great Mouse Detective,1986-07-02,Adventure,,23605534.0,53637367.0,727,Queen Mousetoria,Eve Brenner
+234,48,The Great Mouse Detective,1986-07-02,Adventure,,23605534.0,53637367.0,866,Toby the Dog,Frank Welker
+235,72,Oliver & Company,1988-11-18,Adventure,G,49576671.0,102254492.0,224,DeSoto,Carl Weintraub
+236,72,Oliver & Company,1988-11-18,Adventure,G,49576671.0,102254492.0,239,Dodger,Billy Joel
+237,72,Oliver & Company,1988-11-18,Adventure,G,49576671.0,102254492.0,276,Einstein,Richard Mulligan
+238,72,Oliver & Company,1988-11-18,Adventure,G,49576671.0,102254492.0,292,Fagin,Dom DeLuise
+239,72,Oliver & Company,1988-11-18,Adventure,G,49576671.0,102254492.0,334,Francis,Roscoe Lee Browne
+240,72,Oliver & Company,1988-11-18,Adventure,G,49576671.0,102254492.0,354,Georgette,Bette Midler
+241,72,Oliver & Company,1988-11-18,Adventure,G,49576671.0,102254492.0,432,"Jennifer ""Jenny"" Foxworth",Natalie Gregory
+242,72,Oliver & Company,1988-11-18,Adventure,G,49576671.0,102254492.0,514,Louie the Hot Dog Man,Frank Welker
+243,72,Oliver & Company,1988-11-18,Adventure,G,49576671.0,102254492.0,646,Oliver,Joey Lawrence
+244,72,Oliver & Company,1988-11-18,Adventure,G,49576671.0,102254492.0,745,Rita,Sheryl Lee Ralph
+245,72,Oliver & Company,1988-11-18,Adventure,G,49576671.0,102254492.0,755,Roscoe,Taurean Blacque
+246,72,Oliver & Company,1988-11-18,Adventure,G,49576671.0,102254492.0,827,Sykes,Robert Loggia
+247,72,Oliver & Company,1988-11-18,Adventure,G,49576671.0,102254492.0,864,Tito,Cheech Marin
+248,72,Oliver & Company,1988-11-18,Adventure,G,49576671.0,102254492.0,914,Winston,William Glover
+249,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,5,Adella,Sherry Lynn
+250,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,16,Alana,Kimmy Robertson
+251,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,26,Andrina,Tara Strong
+252,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,35,Aquata,Grey DeLisle; Mona Marshall
+253,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,40,Ariel,Jodi Benson
+254,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,41,Arista,Kimmy Robertson
+255,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,50,Attina,Kari Wahlgren
+256,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,150,Carlotta the Maid,Edie McClurg
+257,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,166,Chef Louis,Rene Auberjonois
+258,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,325,Flotsam and Jetsam,Paddi Edwards
+259,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,326,Flounder,Jason Marin
+260,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,380,Grimsby,Ben Wright
+261,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,390,Harold the Seahorse,Will Ryan
+262,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,476,King Triton,Kenneth Mars
+263,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,554,Max the Sheepdog,Frank Welker
+264,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,699,Prince Eric,Christopher Daniel Barnes
+265,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,778,Scuttle,Buddy Hackett
+266,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,779,Sebastian,Samuel E. Wright
+267,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,886,Ursula,Pat Carroll
+268,83,The Little Mermaid,1989-11-15,Adventure,G,111543479.0,223726012.0,888,Vanessa (The Little Mermaid),Pat Carroll; Jodi Benson
+269,97,The Rescuers Down Under,1990-11-16,Adventure,G,27931461.0,55796728.0,194,Cody,Adam Ryen
+270,97,The Rescuers Down Under,1990-11-16,Adventure,G,27931461.0,55796728.0,238,Doctor Mouse,Bernard Fox
+271,97,The Rescuers Down Under,1990-11-16,Adventure,G,27931461.0,55796728.0,297,Faloo,Carla Meyer
+272,97,The Rescuers Down Under,1990-11-16,Adventure,G,27931461.0,55796728.0,336,Francois,Ed Gilbert
+273,97,The Rescuers Down Under,1990-11-16,Adventure,G,27931461.0,55796728.0,337,Frank,Wayne Robson
+274,97,The Rescuers Down Under,1990-11-16,Adventure,G,27931461.0,55796728.0,428,Jake,Tristan Rogers
+275,97,The Rescuers Down Under,1990-11-16,Adventure,G,27931461.0,55796728.0,482,Krebbs,Douglas Seale
+276,97,The Rescuers Down Under,1990-11-16,Adventure,G,27931461.0,55796728.0,543,Marahute,Frank Welker
+277,97,The Rescuers Down Under,1990-11-16,Adventure,G,27931461.0,55796728.0,641,Nurse Mouse,Russi Taylor
+278,97,The Rescuers Down Under,1990-11-16,Adventure,G,27931461.0,55796728.0,672,Percival C. McLeach,George C. Scott
+279,97,The Rescuers Down Under,1990-11-16,Adventure,G,27931461.0,55796728.0,740,Red,Peter Firth
+280,97,The Rescuers Down Under,1990-11-16,Adventure,G,27931461.0,55796728.0,907,Wilbur,John Candy
+281,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,42,Armoire,Jo Anne Worley
+282,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,59,Babette,Mary Kay Bergman
+283,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,69,Baker,Alex Murphey
+284,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,85,Beast,Robby Benson
+285,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,88,Belle,Paige O'Hara
+286,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,106,Bimbette,Kath Soucie
+287,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,117,Bookseller,Alvin Epstein
+288,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,165,Chef Bouche,Brian Cummings
+289,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,177,Chip Potts,Bradley Michael Pierce
+290,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,195,Cogsworth,David Ogden Stiers
+291,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,312,Fifi the Featherduster,Kimmy Robertson
+292,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,347,Gaston,Richard White
+293,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,499,Le Fou,Jesse Corti
+294,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,522,Lumière,Jerry Orbach
+295,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,551,Maurice,Rex Everhart
+296,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,587,Monsieur D'Arque,Tony Jay
+297,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,616,Mrs. Potts,Angela Lansbury
+298,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,682,Philippe the Horse,Hal Smith
+299,114,Beauty and the Beast,1991-11-13,Musical,G,218951625.0,363017667.0,823,Sultan the Footstool,Frank Welker
+300,135,Aladdin,1992-11-11,Comedy,G,217350219.0,441969178.0,3,Abu,Frank Welker
+301,135,Aladdin,1992-11-11,Comedy,G,217350219.0,441969178.0,13,Aladdin,Scott Weinger; Brad Kane
+302,135,Aladdin,1992-11-11,Comedy,G,217350219.0,441969178.0,351,Genie,Robin Williams
+303,135,Aladdin,1992-11-11,Comedy,G,217350219.0,441969178.0,391,Haroud Hazi Bin,James Avery
+304,135,Aladdin,1992-11-11,Comedy,G,217350219.0,441969178.0,415,Iago,Gilbert Gottfried
+305,135,Aladdin,1992-11-11,Comedy,G,217350219.0,441969178.0,427,Jafar,Jonathan Freeman
+307,135,Aladdin,1992-11-11,Comedy,G,217350219.0,441969178.0,558,Mechanicles,Charlie Adler
+308,135,Aladdin,1992-11-11,Comedy,G,217350219.0,441969178.0,600,Mozenrath,Jonathan Brandis
+309,135,Aladdin,1992-11-11,Comedy,G,217350219.0,441969178.0,708,Princess Jasmine,Linda Larkin; Lea Salonga
+310,135,Aladdin,1992-11-11,Comedy,G,217350219.0,441969178.0,734,Rajah,Frank Welker
+311,135,Aladdin,1992-11-11,Comedy,G,217350219.0,441969178.0,739,Razoul,Jim Cummings
+312,135,Aladdin,1992-11-11,Comedy,G,217350219.0,441969178.0,765,Sadira,Kellie Martin
+313,135,Aladdin,1992-11-11,Comedy,G,217350219.0,441969178.0,822,The Sultan,Douglas Seale
+314,179,The Lion King,1994-06-15,Adventure,G,422780140.0,761640898.0,77,Banzai,Cheech Marin
+315,179,The Lion King,1994-06-15,Adventure,G,422780140.0,761640898.0,271,Ed,Jim Cummings
+316,179,The Lion King,1994-06-15,Adventure,G,422780140.0,761640898.0,618,Mufasa,James Earl Jones
+317,179,The Lion King,1994-06-15,Adventure,G,422780140.0,761640898.0,624,Nala,Moira Kelly; Niketa Calame
+318,179,The Lion King,1994-06-15,Adventure,G,422780140.0,761640898.0,718,Pumbaa,Ernie Sabella
+319,179,The Lion King,1994-06-15,Adventure,G,422780140.0,761640898.0,733,Rafiki,Robert Guillaume
+320,179,The Lion King,1994-06-15,Adventure,G,422780140.0,761640898.0,768,Sarabi,Madge Sinclair
+321,179,The Lion King,1994-06-15,Adventure,G,422780140.0,761640898.0,769,Sarafina,Zoe Leader
+322,179,The Lion King,1994-06-15,Adventure,G,422780140.0,761640898.0,773,Scar,Jeremy Irons
+323,179,The Lion King,1994-06-15,Adventure,G,422780140.0,761640898.0,786,Shenzi,Whoopi Goldberg
+324,179,The Lion King,1994-06-15,Adventure,G,422780140.0,761640898.0,792,Simba,Jonathan Taylor Thomas
+325,179,The Lion King,1994-06-15,Adventure,G,422780140.0,761640898.0,793,Simba,Matthew Broderick
+326,179,The Lion King,1994-06-15,Adventure,G,422780140.0,761640898.0,855,Timon,Nathan Lane
+327,179,The Lion King,1994-06-15,Adventure,G,422780140.0,761640898.0,928,Zazu,Rowan Atkinson
+328,206,A Goofy Movie,1995-04-07,Comedy,G,35336439.0,68479579.0,693,Powerline,Tevin Campbell
+329,206,A Goofy Movie,1995-04-07,Comedy,G,35336439.0,68479579.0,710,Principal Mazur,Wallace Shawn
+330,206,A Goofy Movie,1995-04-07,Comedy,G,35336439.0,68479579.0,746,"Robert ""Bobby"" Zimmeruski",Pauly Shore
+331,206,A Goofy Movie,1995-04-07,Comedy,G,35336439.0,68479579.0,758,Roxanne,Kellie Martin
+332,210,Pocahontas,1995-06-10,Adventure,G,141579773.0,274370957.0,89,Ben,Billy Connolly
+333,210,Pocahontas,1995-06-10,Adventure,G,141579773.0,274370957.0,147,Captain John Smith,Mel Gibson
+334,210,Pocahontas,1995-06-10,Adventure,G,141579773.0,274370957.0,174,Chief Powhatan,Russell Means
+335,210,Pocahontas,1995-06-10,Adventure,G,141579773.0,274370957.0,323,Flit,Frank Welker
+336,210,Pocahontas,1995-06-10,Adventure,G,141579773.0,274370957.0,368,Governor John Ratcliffe,David Ogden Stiers
+337,210,Pocahontas,1995-06-10,Adventure,G,141579773.0,274370957.0,376,Grandmother Willow,Linda Hunt
+338,210,Pocahontas,1995-06-10,Adventure,G,141579773.0,274370957.0,461,Kekata the Medicine man,Gordon Tootoosis
+339,210,Pocahontas,1995-06-10,Adventure,G,141579773.0,274370957.0,479,Kocoum,James Apaumut Fall
+340,210,Pocahontas,1995-06-10,Adventure,G,141579773.0,274370957.0,559,Meeko,John Kassir
+341,210,Pocahontas,1995-06-10,Adventure,G,141579773.0,274370957.0,623,Nakoma,Michelle St. John
+342,210,Pocahontas,1995-06-10,Adventure,G,141579773.0,274370957.0,673,Percy,Danny Mann
+343,210,Pocahontas,1995-06-10,Adventure,G,141579773.0,274370957.0,689,Pocahontas,Irene Bedard; Judy Kuhn
+344,210,Pocahontas,1995-06-10,Adventure,G,141579773.0,274370957.0,846,Thomas,Christian Bale
+345,210,Pocahontas,1995-06-10,Adventure,G,141579773.0,274370957.0,906,Wiggins,David Ogden Stiers
+347,242,The Hunchback of Notre Dame,1996-06-21,Adventure,G,100138851.0,190988799.0,37,The Archdeacon,David Ogden Stiers
+348,242,The Hunchback of Notre Dame,1996-06-21,Adventure,G,100138851.0,190988799.0,148,Captain Phoebus,Kevin Kline
+349,242,The Hunchback of Notre Dame,1996-06-21,Adventure,G,100138851.0,190988799.0,188,Clopin Trouillefou,Paul Kandel
+351,242,The Hunchback of Notre Dame,1996-06-21,Adventure,G,100138851.0,190988799.0,286,Esmeralda,Demi Moore
+352,242,The Hunchback of Notre Dame,1996-06-21,Adventure,G,100138851.0,190988799.0,411,Hugo,Jason Alexander
+353,242,The Hunchback of Notre Dame,1996-06-21,Adventure,G,100138851.0,190988799.0,450,Judge Claude Frollo,Tony Jay
+354,242,The Hunchback of Notre Dame,1996-06-21,Adventure,G,100138851.0,190988799.0,497,Laverne,Mary Wickes
+355,242,The Hunchback of Notre Dame,1996-06-21,Adventure,G,100138851.0,190988799.0,720,Quasimodo,Tom Hulce
+356,242,The Hunchback of Notre Dame,1996-06-21,Adventure,G,100138851.0,190988799.0,890,Victor,Charles Kimbrough
+357,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,17,Alcmene,Barbara Barrie
+358,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,23,Amphitryon,Hal Holbrook
+359,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,34,Apollo,Keith David
+360,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,49,Atropos,Paddi Edwards
+361,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,142,Calliope,Lillias White
+362,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,186,Clio,Vanéese Y. Thomas
+363,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,189,Clotho,Amanda Plummer
+364,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,221,Demetrius,Wayne Knight
+365,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,387,Hades,James Woods
+366,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,398,Hera,Samantha Eggar
+367,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,400,Hercules,Tate Donovan; Joshua Keaton
+368,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,401,Hermes,Paul Shaffer
+369,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,487,Lachesis,Carole Shelley
+370,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,561,Megara,Susan Egan
+371,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,565,Melpomene,Cheryl Freeman
+372,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,636,Nessus,Jim Cummings
+373,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,658,Pain and Panic,Bobcat Goldthwait; Matt Frewer
+374,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,665,Pegasus,Frank Welker
+375,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,681,Philoctetes,Danny DeVito
+376,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,844,Terpsichore,LaChanze
+377,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,845,Thalia,Roz Ryan
+378,265,Hercules,1997-06-13,Adventure,G,99112101.0,182029412.0,930,Zeus,Rip Torn
+379,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,169,Chi-Fu,James Hong
+380,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,175,Chien-Po,Jerry Tondo
+382,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,284,Emperor of China,Pat Morita
+383,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,290,Fa Li,Freda Foh Shen
+384,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,291,Fa Zhou,Soon-Tek Oh
+385,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,316,First Ancestor Fa,George Takei
+386,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,350,General Li,James Shigeta
+387,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,375,Grandmother Fa,June Foray
+388,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,503,Li Shang,B.D. Wong
+389,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,506,Ling,Gedde Watanabe
+390,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,549,The Matchmaker,Miriam Margoyles
+391,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,619,Mulan,Ming-Na Wen; Lea Salonga
+392,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,621,Mushu,Eddie Murphy
+393,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,783,Shan Yu,Miguel Ferrer
+394,285,Mulan,1998-06-19,Adventure,G,120620254.0,216807832.0,921,Yao,Harvey Fierstein
+395,306,Tarzan,1999-06-16,Adventure,G,171091819.0,283900254.0,38,Archimedes Q. Porter,Nigel Hawthorne
+396,306,Tarzan,1999-06-16,Adventure,G,171091819.0,283900254.0,184,Clayton,Brian Blessed
+397,306,Tarzan,1999-06-16,Adventure,G,171091819.0,283900254.0,430,Jane Porter,Minnie Driver
+398,306,Tarzan,1999-06-16,Adventure,G,171091819.0,283900254.0,457,Kala,Glenn Close
+399,306,Tarzan,1999-06-16,Adventure,G,171091819.0,283900254.0,463,Kerchak,Lance Henriksen
+400,306,Tarzan,1999-06-16,Adventure,G,171091819.0,283900254.0,620,Mungo,Jason Marsden
+401,306,Tarzan,1999-06-16,Adventure,G,171091819.0,283900254.0,836,Tantor,Wayne Knight
+402,306,Tarzan,1999-06-16,Adventure,G,171091819.0,283900254.0,838,Tarzan,Tony Goldwyn
+403,306,Tarzan,1999-06-16,Adventure,G,171091819.0,283900254.0,839,Tarzan,Alex D. Linz
+404,306,Tarzan,1999-06-16,Adventure,G,171091819.0,283900254.0,843,Terk,Rosie O'Donnell
+405,327,Dinosaur,2000-05-19,Adventure,PG,137748063.0,215438985.0,12,Aladar,D. B. Sweeney
+406,327,Dinosaur,2000-05-19,Adventure,PG,137748063.0,215438985.0,82,Baylene,Joan Plowright
+407,327,Dinosaur,2000-05-19,Adventure,PG,137748063.0,215438985.0,128,Bruton,Peter Siragusa
+408,327,Dinosaur,2000-05-19,Adventure,PG,137748063.0,215438985.0,274,Eema,Della Reese
+409,327,Dinosaur,2000-05-19,Adventure,PG,137748063.0,215438985.0,484,Kron,Samuel E. Wright
+410,327,Dinosaur,2000-05-19,Adventure,PG,137748063.0,215438985.0,634,Neera,Julianna Margulies
+411,327,Dinosaur,2000-05-19,Adventure,PG,137748063.0,215438985.0,687,Plio,Alfre Woodard
+412,327,Dinosaur,2000-05-19,Adventure,PG,137748063.0,215438985.0,824,Suri,Hayden Panettiere
+414,327,Dinosaur,2000-05-19,Adventure,PG,137748063.0,215438985.0,922,Yar,Ossie Davis
+415,327,Dinosaur,2000-05-19,Adventure,PG,137748063.0,215438985.0,932,Zini,Max Casella
+416,338,The Emperor's New Groove,2000-12-15,Adventure,G,89296573.0,136789252.0,134,Bucky the Squirrel,Bob Bergen
+417,338,The Emperor's New Groove,2000-12-15,Adventure,G,89296573.0,136789252.0,159,Chaca,Kellyann Kelso
+418,338,The Emperor's New Groove,2000-12-15,Adventure,G,89296573.0,136789252.0,170,Chicha,Wendie Malick
+419,338,The Emperor's New Groove,2000-12-15,Adventure,G,89296573.0,136789252.0,485,Kronk Pepikrankenitz,Patrick Warburton
+420,338,The Emperor's New Groove,2000-12-15,Adventure,G,89296573.0,136789252.0,486,Kuzco,David Spade
+421,338,The Emperor's New Groove,2000-12-15,Adventure,G,89296573.0,136789252.0,657,Pacha,John Goodman
+422,338,The Emperor's New Groove,2000-12-15,Adventure,G,89296573.0,136789252.0,863,Tipo,Eli Russell Linnetz
+423,338,The Emperor's New Groove,2000-12-15,Adventure,G,89296573.0,136789252.0,926,Yzma,Eartha Kitt
+424,344,Atlantis: The Lost Empire,2001-06-08,Adventure,PG,84052762.0,125188122.0,52,Audrey Ramirez,Jacqueline Obradors
+425,344,Atlantis: The Lost Empire,2001-06-08,Adventure,PG,84052762.0,125188122.0,199,Commander Lyle Rourke,James Garner
+426,344,Atlantis: The Lost Empire,2001-06-08,Adventure,PG,84052762.0,125188122.0,200,Cookie,Jim Varney
+427,344,Atlantis: The Lost Empire,2001-06-08,Adventure,PG,84052762.0,125188122.0,258,Dr. Joshua Sweet,Phil Morris
+428,344,Atlantis: The Lost Empire,2001-06-08,Adventure,PG,84052762.0,125188122.0,304,Fenton Q. Harcourt,David Ogden Stiers
+429,344,Atlantis: The Lost Empire,2001-06-08,Adventure,PG,84052762.0,125188122.0,345,"Gaetan ""Mole"" Moliére",Corey Burton
+430,344,Atlantis: The Lost Empire,2001-06-08,Adventure,PG,84052762.0,125188122.0,395,Helga Sinclair,Claudia Christian
+431,344,Atlantis: The Lost Empire,2001-06-08,Adventure,PG,84052762.0,125188122.0,470,King Kashekim Nedakh,Leonard Nimoy
+432,344,Atlantis: The Lost Empire,2001-06-08,Adventure,PG,84052762.0,125188122.0,575,Milo Thatch,Michael J. Fox
+433,344,Atlantis: The Lost Empire,2001-06-08,Adventure,PG,84052762.0,125188122.0,695,Preston B. Whitmore,John Mahoney
+434,344,Atlantis: The Lost Empire,2001-06-08,Adventure,PG,84052762.0,125188122.0,709,Princess Kidagakash,Cree Summer
+435,344,Atlantis: The Lost Empire,2001-06-08,Adventure,PG,84052762.0,125188122.0,892,"Vincenzo ""Vinny"" Santorini",Don Novello
+436,344,Atlantis: The Lost Empire,2001-06-08,Adventure,PG,84052762.0,125188122.0,909,Wilhelmina Packard,Florence Stanley
+437,365,Lilo & Stitch,2002-06-21,Adventure,PG,145771527.0,211506702.0,8,Agent Wendy Pleakley,Kevin McDonald
+438,365,Lilo & Stitch,2002-06-21,Adventure,PG,145771527.0,211506702.0,192,Cobra Bubbles,Ving Rhames
+439,365,Lilo & Stitch,2002-06-21,Adventure,PG,145771527.0,211506702.0,220,David Kawena,Jason Scott Lee
+440,365,Lilo & Stitch,2002-06-21,Adventure,PG,145771527.0,211506702.0,259,Dr. Jumba Jookiba,David Ogden Stiers
+441,365,Lilo & Stitch,2002-06-21,Adventure,PG,145771527.0,211506702.0,346,Captain Gantu,Kevin Michael Richardson
+442,365,Lilo & Stitch,2002-06-21,Adventure,PG,145771527.0,211506702.0,372,Grand Councilwoman,Zoe Caldwell
+443,365,Lilo & Stitch,2002-06-21,Adventure,PG,145771527.0,211506702.0,505,Lilo Pelekai,Daveigh Chase
+444,365,Lilo & Stitch,2002-06-21,Adventure,PG,145771527.0,211506702.0,611,Mrs. Hasagawa,Amy Hill
+445,365,Lilo & Stitch,2002-06-21,Adventure,PG,145771527.0,211506702.0,622,Myrtle Edmonds,Miranda Paige Walls; Liliana Mumy
+446,365,Lilo & Stitch,2002-06-21,Adventure,PG,145771527.0,211506702.0,627,Nani Pelekai,Tia Carrere
+447,365,Lilo & Stitch,2002-06-21,Adventure,PG,145771527.0,211506702.0,818,Stitch,Chris Sanders
+448,366,The Country Bears,2002-07-26,Adventure,G,16988996.0,24650121.0,84,Beary Barrington,Haley Joel Osment
+449,366,The Country Bears,2002-07-26,Adventure,G,16988996.0,24650121.0,99,Big Al,James Gammon
+450,366,The Country Bears,2002-07-26,Adventure,G,16988996.0,24650121.0,226,Dex Barrington,Justin Berfield
+451,366,The Country Bears,2002-07-26,Adventure,G,16988996.0,24650121.0,841,Ted Betterhead,Diedrich Bader
+452,373,Treasure Planet,2002-11-27,Adventure,PG,38120554.0,55189145.0,58,B.E.N.,Martin Short
+453,373,Treasure Planet,2002-11-27,Adventure,PG,38120554.0,55189145.0,105,Billy Bones,Patrick McGoohan
+454,373,Treasure Planet,2002-11-27,Adventure,PG,38120554.0,55189145.0,145,Captain Amelia,Emma Thompson
+455,373,Treasure Planet,2002-11-27,Adventure,PG,38120554.0,55189145.0,254,Dr. Doppler,David Hyde Pierce
+456,373,Treasure Planet,2002-11-27,Adventure,PG,38120554.0,55189145.0,388,Hands,Micheal McShane
+457,373,Treasure Planet,2002-11-27,Adventure,PG,38120554.0,55189145.0,439,Jim Hawkins,Joseph Gordon-Levitt
+458,373,Treasure Planet,2002-11-27,Adventure,PG,38120554.0,55189145.0,446,John Silver,Brian Murray
+459,373,Treasure Planet,2002-11-27,Adventure,PG,38120554.0,55189145.0,594,Morph,Dane A. Davis
+460,373,Treasure Planet,2002-11-27,Adventure,PG,38120554.0,55189145.0,601,Mr. Arrow,Roscoe Lee Browne
+461,373,Treasure Planet,2002-11-27,Adventure,PG,38120554.0,55189145.0,649,Onus,Corey Burton
+462,373,Treasure Planet,2002-11-27,Adventure,PG,38120554.0,55189145.0,770,Sarah Hawkins,Laurie Metcalf
+463,373,Treasure Planet,2002-11-27,Adventure,PG,38120554.0,55189145.0,777,Scroop,Michael Wincott
+464,391,Brother Bear,2003-10-24,Adventure,G,85336277.0,119218333.0,222,Denahi,Jason Raize
+465,391,Brother Bear,2003-10-24,Adventure,G,85336277.0,119218333.0,462,Kenai,Joaquin Phoenix
+466,391,Brother Bear,2003-10-24,Adventure,G,85336277.0,119218333.0,480,Koda,Jeremy Suarez
+467,391,Brother Bear,2003-10-24,Adventure,G,85336277.0,119218333.0,763,Rutt and Tuke,Rick Moranis; Dave Thomas
+468,391,Brother Bear,2003-10-24,Adventure,G,85336277.0,119218333.0,800,Sitka,D. B. Sweeney
+469,391,Brother Bear,2003-10-24,Adventure,G,85336277.0,119218333.0,833,Tanana,Joan Copeland
+470,391,Brother Bear,2003-10-24,Adventure,G,85336277.0,119218333.0,876,Tug,Michael Clarke Duncan
+471,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,14,Alameda Slim,Randy Quaid
+472,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,51,Audrey the Chicken,Estelle Harris
+473,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,130,Buck,Cuba Gooding Jr.
+474,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,369,Grace,Jennifer Tilly
+475,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,431,Jeb the Goat,Joe Flaherty
+476,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,455,Junior the Buffalo,Lance LeGault
+477,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,495,Larry the Duck,Marshall Efron
+478,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,519,Lucky Jack,Charles Haid
+479,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,532,Maggie,Roseanne Barr
+480,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,609,Mrs. Calloway,Judi Dench
+481,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,648,Ollie the Pig,Charlie Dell
+482,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,662,Pearl Gesner,Carole Cook
+483,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,743,Rico,Charles Dennis
+484,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,762,Rusty the Dog,G.W. Bailey
+485,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,767,Sam the Sheriff,Richard Riehle
+486,400,Home on the Range,2004-04-02,Comedy,PG,50026353.0,67910166.0,902,Wesley,Steve Buscemi
+487,415,Pooh's Heffalump Movie,2005-02-11,Adventure,G,18098433.0,23801835.0,523,Lumpy the Heffalump,Kyle Stanger
+488,428,Chicken Little,2005-11-04,Adventure,G,135386665.0,177954661.0,0,Abby Mallard,Joan Cusack
+489,428,Chicken Little,2005-11-04,Adventure,G,135386665.0,177954661.0,131,Buck Cluck,Garry Marshall
+490,428,Chicken Little,2005-11-04,Adventure,G,135386665.0,177954661.0,171,Chicken Little,Zach Braff
+491,428,Chicken Little,2005-11-04,Adventure,G,135386665.0,177954661.0,318,Fish Out of Water,Dan Molina
+492,428,Chicken Little,2005-11-04,Adventure,G,135386665.0,177954661.0,332,Foxy Loxy,Amy Sedaris
+493,428,Chicken Little,2005-11-04,Adventure,G,135386665.0,177954661.0,365,Goosey Loosey,Mark Walton
+494,428,Chicken Little,2005-11-04,Adventure,G,135386665.0,177954661.0,477,Kirby,Sean Elmore
+495,428,Chicken Little,2005-11-04,Adventure,G,135386665.0,177954661.0,566,Melvin,Fred Willard
+496,428,Chicken Little,2005-11-04,Adventure,G,135386665.0,177954661.0,591,Morcupine Porcupine,Mark Dindal
+497,428,Chicken Little,2005-11-04,Adventure,G,135386665.0,177954661.0,608,Mr. Woolensworth,Patrick Stewart
+498,428,Chicken Little,2005-11-04,Adventure,G,135386665.0,177954661.0,761,Runt of the Litter,Steve Zahn
+499,428,Chicken Little,2005-11-04,Adventure,G,135386665.0,177954661.0,858,Tina,Catherine O'Hara
+500,428,Chicken Little,2005-11-04,Adventure,G,135386665.0,177954661.0,878,Turkey Lurkey,Don Knotts
+501,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,122,Bowler Hat Guy,Stephen J. Anderson
+502,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,149,Carl the Robot,Harland Williams
+503,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,202,Cornelius Robinson,Tom Selleck
+504,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,249,Doris,Ethan Sandler
+505,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,338,Frankie the Frog,Aurian Redson
+506,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,339,Franny Robinson,Nicole Sullivan
+507,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,363,Goob,Matthew Josten
+508,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,500,Lefty,Nathan Greno
+509,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,502,Lewis,Jordan Fry
+510,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,511,Lizzy,Tracey Miller-Zarneke
+511,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,517,Lucille Krunklehorn,Laurie Metcalf
+512,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,574,Mildred,Angela Bassett
+513,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,607,Mr. Willerstein,Tom Kenny
+514,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,861,Tiny,Joe Mateo
+515,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,882,Uncle Art,Adam West
+516,453,Meet the Robinsons,2007-03-30,Adventure,G,97822171.0,119860589.0,908,Wilbur Robinson,Wesley Singerman
+517,462,Enchanted,2007-11-21,Romantic Comedy,PG,127706877.0,156074310.0,358,Giselle,Amy Adams
+518,462,Enchanted,2007-11-21,Romantic Comedy,PG,127706877.0,156074310.0,626,Nancy Tremaine,Idina Menzel
+519,462,Enchanted,2007-11-21,Romantic Comedy,PG,127706877.0,156074310.0,631,Nathaniel,Timothy Spall
+520,462,Enchanted,2007-11-21,Romantic Comedy,PG,127706877.0,156074310.0,685,Pip,Jeff Bennett; Kevin Lima
+521,462,Enchanted,2007-11-21,Romantic Comedy,PG,127706877.0,156074310.0,698,Prince Edward,James Marsden
+522,462,Enchanted,2007-11-21,Romantic Comedy,PG,127706877.0,156074310.0,728,Queen Narissa,Susan Sarandon
+523,475,Bolt,2008-11-21,Comedy,PG,114053759.0,133702498.0,7,The Agent,Greg Germann
+524,475,Bolt,2008-11-21,Comedy,PG,114053759.0,133702498.0,110,Blake,Nick Swardson
+525,475,Bolt,2008-11-21,Comedy,PG,114053759.0,133702498.0,114,Bolt,John Travolta
+526,475,Bolt,2008-11-21,Comedy,PG,114053759.0,133702498.0,233,The Director,James Lipton
+527,475,Bolt,2008-11-21,Comedy,PG,114053759.0,133702498.0,252,Dr. Calico,Malcolm McDowell
+528,475,Bolt,2008-11-21,Comedy,PG,114053759.0,133702498.0,256,Dr. Forrester,Ronn Moss
+529,475,Bolt,2008-11-21,Comedy,PG,114053759.0,133702498.0,576,Mindy,Kari Wahlgren
+530,475,Bolt,2008-11-21,Comedy,PG,114053759.0,133702498.0,584,Mittens,Susie Essman
+531,475,Bolt,2008-11-21,Comedy,PG,114053759.0,133702498.0,666,Penny's Mom,Grey DeLisle
+532,475,Bolt,2008-11-21,Comedy,PG,114053759.0,133702498.0,669,Penny,Miley Cyrus
+533,475,Bolt,2008-11-21,Comedy,PG,114053759.0,133702498.0,741,Rhino,Mark Walton
+534,475,Bolt,2008-11-21,Comedy,PG,114053759.0,133702498.0,848,Thug,Randy Savage
+535,475,Bolt,2008-11-21,Comedy,PG,114053759.0,133702498.0,889,Veteran Cat,Diedrich Bader
+536,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,135,Buford the Cook,Michael Colyar
+537,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,163,Charlotte La Bouff,Jennifer Cody
+538,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,203,Cousin Randy,Randy Newman
+539,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,255,Dr. Facilier,Keith David
+540,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,278,"Eli ""Big Daddy"" La Bouff",John Goodman
+541,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,287,Eudora,Oprah Winfrey
+543,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,392,Harvey Fenner,Corey Burton
+544,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,397,Henry Fenner,Jerry Kernion
+545,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,416,Ian the Alligator,Kevin Michael Richardson
+546,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,498,Lawrence the Valet,Peter Bartlett
+547,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,515,Louis the Alligator,Michael-Leon Wooley
+548,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,541,Mama Odie,Jenifer Lewis
+549,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,547,Marlon the Alligator,Emeril Lagasse
+550,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,703,Prince Naveen,Bruno Campos
+551,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,738,Ray the Firefly,Jim Cummings
+552,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,851,Tiana,Anika Noni Rose
+553,491,The Princess and the Frog,2009-11-25,Adventure,G,104400899.0,116316457.0,881,Two Fingers,Paul Briggs
+554,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,18,Alice,Kathryn Beaumont
+555,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,20,Alice's Sister,Heather Angel
+556,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,103,Bill the Lizard,Larry Grey
+557,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,151,The Carpenter,J. Pat O'Malley
+558,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,155,The Caterpillar,Richard Haydn
+559,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,168,Cheshire Cat,Sterling Holloway
+561,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,240,The Dodo,Bill Thompson
+562,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,246,The Doorknob,Joseph Kearns
+563,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,250,The Dormouse,Jimmy MacDonald
+564,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,466,The King of Hearts,Dink Trout
+565,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,526,Mad Hatter,Ed Wynn
+566,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,544,March Hare,Jerry Colonna
+567,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,729,The Queen of Hearts,Verna Felton
+568,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,756,The Rose,Doris Lloyd
+569,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,880,Tweedledum and Tweedledee,J. Pat O'Malley
+570,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,898,The Walrus,J. Pat O'Malley
+571,494,Alice in Wonderland,2010-03-05,Adventure,PG,334191110.0,357063499.0,904,White Rabbit,Bill Thompson
+572,505,Tangled,2010-11-24,Adventure,PG,200821936.0,214388548.0,329,Flynn Rider,Zachary Levi
+573,505,Tangled,2010-11-24,Adventure,PG,200821936.0,214388548.0,405,Hook Hand,Brad Garrett
+575,505,Tangled,2010-11-24,Adventure,PG,200821936.0,214388548.0,597,Mother Gothel,Donna Murphy
+576,505,Tangled,2010-11-24,Adventure,PG,200821936.0,214388548.0,660,Pascal,Frank Welker
+577,505,Tangled,2010-11-24,Adventure,PG,200821936.0,214388548.0,736,Rapunzel,Mandy Moore
+578,505,Tangled,2010-11-24,Adventure,PG,200821936.0,214388548.0,816,Stabbington Brothers,Ron Perlman
+579,506,Tron: Legacy,2010-12-17,Adventure,PG,172062763.0,183619259.0,766,Sam Flynn,Garrett John Hedlund
+581,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,143,Candlehead,Katie Lowes
+582,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,209,Crumbelina DiCaramello,Cymbre Walk
+583,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,270,Duncan,Horatio Sanz
+584,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,319,Fix-It Felix Jr.,Jack McBrayer
+585,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,349,General Hologram,Dennis Haysbert
+587,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,449,Jubileena Bing-Bing,Josie Trinidad
+588,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,467,King Candy/Turbo,Alan Tudyk
+589,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,510,Mr. Litwak,Ed O'Neill
+590,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,546,Markowski,Joe Lo Truglio
+592,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,735,Rancis Fluggerbutter,Jamie Elman
+593,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,781,Sergeant Calhoun,Jane Lynch
+595,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,810,Sour Bill,Rich Moore
+597,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,830,Taffyta Muttonfudge,Mindy Kaling
+598,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,887,Vanellope von Schweetz,Sarah Silverman
+599,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,918,Wreck-It Ralph,John C. Reilly
+600,529,Wreck-It Ralph,2012-11-02,Adventure,PG,189412677.0,200354959.0,919,Wynchel,Adam Carolla
+601,539,Frozen,2013-11-22,Adventure,PG,400738009.0,414997174.0,31,Anna,Kristen Bell
+602,539,Frozen,2013-11-22,Adventure,PG,400738009.0,414997174.0,267,Duke of Weselton,Alan Tudyk
+603,539,Frozen,2013-11-22,Adventure,PG,400738009.0,414997174.0,282,Elsa,Idina Menzel
+604,539,Frozen,2013-11-22,Adventure,PG,400738009.0,414997174.0,483,Kristoff,Jonathan Groff
+605,539,Frozen,2013-11-22,Adventure,PG,400738009.0,414997174.0,643,Oaken,Chris Williams
+606,539,Frozen,2013-11-22,Adventure,PG,400738009.0,414997174.0,645,Olaf,Josh Gad
+607,539,Frozen,2013-11-22,Adventure,PG,400738009.0,414997174.0,700,Prince Hans,Santino Fontana
+609,552,Big Hero 6,2014-11-07,Adventure,PG,222527828.0,229249222.0,829,Tadashi Hamada,Daniel Henney
+610,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,47,Assistant Mayor Dawn Bellwether,Jenny Slate
+611,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,91,Benjamin Clawhauser,Nate Torrence
+612,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,116,Bonnie Hopps,Bonnie Hunt
+613,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,133,Bucky Oryx-Antlerson,Byron Howard
+614,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,173,Chief Bogo,Idris Elba
+615,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,251,Doug Ramses,Rich Moore
+616,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,268,Duke Weaselton,Alan Tudyk
+618,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,315,Finnick,"Tommy ""Tiny"" Lister Jr."
+619,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,321,Flash Slothmore,Raymond S. Persi
+620,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,348,Gazelle,Shakira
+621,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,434,Jerry Jumbeaux Jr.,John DiMaggio
+622,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,435,Jesse the Ram,John DiMaggio
+623,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,452,Judy Hopps,Ginnifer Goodwin
+624,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,557,Mayor Lionheart,J.K. Simmons
+625,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,602,Mr. Big,Maurice LaMarche
+626,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,614,Mrs. Otterton,Octavia Spencer
+627,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,638,"Nicholas ""Nick"" P. Wilde",Jason Bateman
+628,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,714,Pronk Oryx-Antlerson,Jared Bush
+629,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,820,Stu Hopps,Don Lake
+630,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,916,Woolter the Ram,John DiMaggio
+631,566,Zootopia,2016-03-04,Adventure,PG,341268248.0,341268248.0,923,Yax,Tommy Chong
+632,577,Moana,2016-11-23,Adventure,PG,246082029.0,246082029.0,370,Gramma Tala,Rachel House
+633,577,Moana,2016-11-23,Adventure,PG,246082029.0,246082029.0,394,Heihei the Rooster,Alan Tudyk
+634,577,Moana,2016-11-23,Adventure,PG,246082029.0,246082029.0,550,Maui,Dwayne Johnson
+635,577,Moana,2016-11-23,Adventure,PG,246082029.0,246082029.0,585,Moana Waialiki,Auli'i Cravalho
+637,577,Moana,2016-11-23,Adventure,PG,246082029.0,246082029.0,832,Tamatoa,Jemaine Clement
+638,577,Moana,2016-11-23,Adventure,PG,246082029.0,246082029.0,877,Tui Waialiki,Temuera Morrison

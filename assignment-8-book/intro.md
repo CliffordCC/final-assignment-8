@@ -46,8 +46,8 @@ $$
 \sigma ^2 = {\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
 $$
 
-```
-{tip} Std dev is just the square root of the variance [https://www.encyclopedia.com/science-and-technology/mathematics/mathematics/standard-deviation]
+```{tip} 
+Std dev is just the square root of the variance [https://www.encyclopedia.com/science-and-technology/mathematics/mathematics/standard-deviation]
 ```
 
 ## Python literacy requirement:
@@ -81,8 +81,8 @@ count_actor_plot = (
 count_actor_plot
 ```
 
-```
-{note} Python was the second most used programming laungauge in 2022 [https://octoverse.github.com/2022/top-programming-languages]
+```{note} 
+Python was the second most used programming laungauge in 2022 [https://octoverse.github.com/2022/top-programming-languages]
 
 ```
 

@@ -50,6 +50,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Final Project" href="final_project.html" />
@@ -315,6 +317,50 @@ title="Print to PDF"
    Dataset description
   </a>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#math-literacy-requirement">
+   Math literacy requirement.
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#mean">
+     Mean:
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#median">
+     Median:
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#standard-deviation">
+     Standard Deviation:
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#variance">
+     Variance:
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#python-literacy-requirement">
+   Python literacy requirement:
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#code-block-example-1">
+     code block example 1
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#code-block-example-2">
+     code block example 2
+    </a>
+   </li>
+  </ul>
+ </li>
 </ul>
 
     </nav>
@@ -344,6 +390,50 @@ title="Print to PDF"
    Dataset description
   </a>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#math-literacy-requirement">
+   Math literacy requirement.
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#mean">
+     Mean:
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#median">
+     Median:
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#standard-deviation">
+     Standard Deviation:
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#variance">
+     Variance:
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#python-literacy-requirement">
+   Python literacy requirement:
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#code-block-example-1">
+     code block example 1
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#code-block-example-2">
+     code block example 2
+    </a>
+   </li>
+  </ul>
+ </li>
 </ul>
 
                         </nav>
@@ -366,6 +456,83 @@ title="Print to PDF"
 <p>“All Disney movies with their release dates, genre, rating, total gross and inflation adjusted gross(2016).
 Disney has produced many movies, this data has all Disney movies till 2016.”</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">Disney</span></code> dataset is composed of 5 tables <code class="docutils literal notranslate"><span class="pre">disney_movies_total_gross.csv</span></code>, <code class="docutils literal notranslate"><span class="pre">disney_revenue_1991-2016.csv</span></code>, <code class="docutils literal notranslate"><span class="pre">disney-characters.csv</span></code>, <code class="docutils literal notranslate"><span class="pre">disney-directors.csv</span></code>, <code class="docutils literal notranslate"><span class="pre">disney-voice-actors.csv</span></code>. Each table is stored as a <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file. The data set contains the release dates, genre, rating, total gross and inflation adjust gross of all disney movies made to to 2016; disney reveunue by source from 1991 to 2016; disney’s characters catagorized by charater type (villian or hero) and including columns for films starred in, films release dates and film theme song; a list of disney directors and the films they directed; and, a list of all disney voice actors and the films the appeared in.</p>
+</section>
+<section id="math-literacy-requirement">
+<h2>Math literacy requirement.<a class="headerlink" href="#math-literacy-requirement" title="Permalink to this headline">#</a></h2>
+<p>To effectively understand this project the reader should have and understanding very basics statistical equations such as:</p>
+<section id="mean">
+<h3>Mean:<a class="headerlink" href="#mean" title="Permalink to this headline">#</a></h3>
+<div class="math notranslate nohighlight">
+\[
+{\bar{x} = {\frac {x_{1}+x_{2}+\cdots +x_{n}}{n}}}={\frac {1}{n}}\sum _{i=1}^{n}x_{i}
+\]</div>
+</section>
+<section id="median">
+<h3>Median:<a class="headerlink" href="#median" title="Permalink to this headline">#</a></h3>
+<div class="math notranslate nohighlight">
+\[
+{Med{(X)} = \frac{X[\frac {n}{2}]+X[\frac{n}{2}+1]}{2}{\text{if n is even}}}
+\]</div>
+<p>Where X = ordered list</p>
+</section>
+<section id="standard-deviation">
+<h3>Standard Deviation:<a class="headerlink" href="#standard-deviation" title="Permalink to this headline">#</a></h3>
+<div class="math notranslate nohighlight">
+\[
+\sigma = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
+\]</div>
+<aside class="margin sidebar">
+<p class="sidebar-title">Did you know?</p>
+<p>Did you know the Karl Pearson introduced procedure and term standard deviation to statistics in 1892.</p>
+</aside>
+</section>
+<section id="variance">
+<h3>Variance:<a class="headerlink" href="#variance" title="Permalink to this headline">#</a></h3>
+<div class="math notranslate nohighlight">
+\[
+\sigma ^2 = {\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
+\]</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Std dev is just the square root of the variance [<a class="reference external" href="https://www.encyclopedia.com/science-and-technology/mathematics/mathematics/standard-deviation">https://www.encyclopedia.com/science-and-technology/mathematics/mathematics/standard-deviation</a>]</p>
+</div>
+</section>
+</section>
+<section id="python-literacy-requirement">
+<h2>Python literacy requirement:<a class="headerlink" href="#python-literacy-requirement" title="Permalink to this headline">#</a></h2>
+<p>To get the most out of this project the reader should be able to read basic python code. Their are several code cells in the project that can be run live and manipulated direct within the jupyter book. Here are 2 examples of one code cell you will come across this book:</p>
+<section id="code-block-example-1">
+<h3>code block example 1<a class="headerlink" href="#code-block-example-1" title="Permalink to this headline">#</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># group by year and compute the average number of parts.</span>
+
+<span class="n">count_actor_group</span> <span class="o">=</span> <span class="n">movie_rev_actor</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;voice-actor&#39;</span><span class="p">)[</span><span class="s1">&#39;movie&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">count_actor_group</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+
+<span class="n">count_actor_group</span> <span class="o">=</span> <span class="n">count_actor_group</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">count_actor_group</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="code-block-example-2">
+<h3>code block example 2<a class="headerlink" href="#code-block-example-2" title="Permalink to this headline">#</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># group by year and compute the average number of parts.</span>
+
+<span class="n">count_actor_plot</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">count_actor_group</span><span class="p">[:</span><span class="mi">20</span><span class="p">],</span> <span class="n">width</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">mark_circle</span><span class="p">()</span>
+    <span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+        <span class="n">x</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s2">&quot;voice-actor:N&quot;</span><span class="p">,</span><span class="n">sort</span><span class="o">=</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Voice Actor&quot;</span><span class="p">),</span>
+        <span class="n">y</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s2">&quot;movie:Q&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;movie appearances&quot;</span><span class="p">),</span>
+    <span class="p">)</span>
+    <span class="o">.</span><span class="n">properties</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&quot;Figure 2: nummber of films by Voice Actor since 1999 (top 20 actors)&quot;</span><span class="p">)</span>
+<span class="p">)</span>
+<span class="n">count_actor_plot</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Python was the second most used programming laungauge in 2022 [<a class="reference external" href="https://octoverse.github.com/2022/top-programming-languages">https://octoverse.github.com/2022/top-programming-languages</a>]</p>
+</div>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="final_project.html">Final Project</a></li>
@@ -381,6 +548,7 @@ Disney has produced many movies, this data has all Disney movies till 2016.”</
 <li class="toctree-l1"><a class="reference internal" href="Disscussion.html">Discussions</a></li>
 </ul>
 </div>
+</section>
 </section>
 </section>
 
