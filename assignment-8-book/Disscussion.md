@@ -34,15 +34,17 @@ My analysis in the book is only the beginning of what is possible with the power
 ```{tip}
 Learning data science is hard but the most important tip I have received to to practice!
 ```
-```{note} More useful statisical equations
-Sample Slope
+```{note} 
+''More useful statisical equations:''
++++
 $$
+\text{Sample Slope:}
 \begin{equation}
 \hat{\beta}_1 = \frac{\sum(X_i – \bar{X}) (Y_i – \bar{Y})} {\sum(X_i – \bar{X})^2}
 \end{equation}
 $$
 $$
-Conditional Standard Deviation:
+\text{Conditional Standard Deviation:}
 \begin{equation}
 \hat{\sigma} = \sqrt\frac{\sum(Y_i – \hat{Y}_i)^2} {n – 2}
 \end{equation}
