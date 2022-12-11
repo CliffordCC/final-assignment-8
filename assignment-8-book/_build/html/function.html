@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Function &#8212; Assignment 8 book</title>
+    <title>Function and More exploration &#8212; Assignment 8 book</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -50,6 +50,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Discussions" href="Disscussion.html" />
@@ -121,7 +123,7 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Function
+   Function and More exploration
   </a>
  </li>
  <li class="toctree-l1">
@@ -331,23 +333,148 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code-block-1">
+   code block 1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#equation-1">
+   Equation 1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code-block-2">
+   code block 2
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#insert-image-1">
+   Insert image 1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#insert-image-2">
+   Insert image 2
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#hidden-content-chart-1">
+     hidden content chart #1
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#hidden-input-chart-2">
+     hidden input chart #2
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#possible-future-analysis">
+   possible future analysis
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#equation-2">
+     Equation 2
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Function</h1>
+                <h1>Function and More exploration</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code-block-1">
+   code block 1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#equation-1">
+   Equation 1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code-block-2">
+   code block 2
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#insert-image-1">
+   Insert image 1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#insert-image-2">
+   Insert image 2
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#hidden-content-chart-1">
+     hidden content chart #1
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#hidden-input-chart-2">
+     hidden input chart #2
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#possible-future-analysis">
+   possible future analysis
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#equation-2">
+     Equation 2
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -355,8 +482,68 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="function">
-<h1>Function<a class="headerlink" href="#function" title="Permalink to this headline">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="function-and-more-exploration">
+<h1>Function and More exploration<a class="headerlink" href="#function-and-more-exploration" title="Permalink to this headline">#</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">altair</span> <span class="k">as</span> <span class="nn">alt</span>
+<span class="n">movie_rev_actor</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data/movie_rev_actor.csv&#39;</span><span class="p">)</span>
+<span class="n">movie_rev</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data/movie_rev_cleaned.csv&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">movie_rev</span><span class="o">.</span><span class="n">info</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 575 entries, 0 to 574
+Data columns (total 8 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Unnamed: 0                575 non-null    int64  
+ 1   index                     575 non-null    int64  
+ 2   movie_title               575 non-null    object 
+ 3   release_date              575 non-null    object 
+ 4   genre                     575 non-null    object 
+ 5   MPAA_rating               523 non-null    object 
+ 6   total_gross               575 non-null    float64
+ 7   inflation_adjusted_gross  575 non-null    float64
+dtypes: float64(2), int64(2), object(4)
+memory usage: 36.1+ KB
+None
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># switch Dtype to datetime</span>
+<span class="n">movie_rev</span><span class="p">[</span><span class="s1">&#39;release_date&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">movie_rev</span><span class="p">[</span><span class="s1">&#39;release_date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;datetime64&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">movie_rev</span><span class="o">.</span><span class="n">info</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 575 entries, 0 to 574
+Data columns (total 8 columns):
+ #   Column                    Non-Null Count  Dtype         
+---  ------                    --------------  -----         
+ 0   Unnamed: 0                575 non-null    int64         
+ 1   index                     575 non-null    int64         
+ 2   movie_title               575 non-null    object        
+ 3   release_date              575 non-null    datetime64[ns]
+ 4   genre                     575 non-null    object        
+ 5   MPAA_rating               523 non-null    object        
+ 6   total_gross               575 non-null    float64       
+ 7   inflation_adjusted_gross  575 non-null    float64       
+dtypes: datetime64[ns](1), float64(2), int64(2), object(3)
+memory usage: 36.1+ KB
+None
+</pre></div>
+</div>
+</div>
+</div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#import function</span>
@@ -364,6 +551,127 @@ title="Print to PDF"
 </pre></div>
 </div>
 </div>
+</div>
+<p>Here is the code used the create the above function</p>
+<section id="code-block-1">
+<h2>code block 1<a class="headerlink" href="#code-block-1" title="Permalink to this headline">#</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
+<span class="k">def</span> <span class="nf">custom_count_mean</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">grouping_col</span><span class="p">,</span> <span class="n">string_name</span><span class="p">,</span> <span class="n">mean_col</span><span class="p">):</span>
+    <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Given a dataframe, a column and string, return the count and mean of a specified string with said column</span>
+<span class="sd">    </span>
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    data : pandas.core.frame.DataFrame</span>
+<span class="sd">        The dataframe to sample from</span>
+<span class="sd">    string_name : str</span>
+<span class="sd">        The string you want to count and find mean of</span>
+<span class="sd">    mean_col : float</span>
+<span class="sd">        The column you want to find the mean and count of</span>
+<span class="sd">        </span>
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    </span>
+<span class="sd">        The mean value and count of a string contained within a column</span>
+<span class="sd">        </span>
+<span class="sd">    Raises</span>
+<span class="sd">    ------</span>
+<span class="sd">    TypeError</span>
+<span class="sd">        If the input argument data is not of type pandas.core.frame.DataFrame</span>
+<span class="sd">    AssertError</span>
+<span class="sd">        If the input argument grouping_col is not in the data columns</span>
+<span class="sd">    AssertError</span>
+<span class="sd">        If the input argument action_col is not in the data columns</span>
+<span class="sd">    TypeError</span>
+<span class="sd">        If the string_name does on apper in the grouping_col</span>
+<span class="sd">    </span>
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; custom_count_mean(movie_rev, &#39;voice_actor&#39;, &#39;Kristen Bell&#39;, &#39;inflation_adjusted_gross&#39; )</span>
+<span class="sd">    (1, 414997174.0)</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    
+    <span class="c1"># Checks if a dataframe is the type of object being passed into the data argument</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">type</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> <span class="o">==</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span> 
+        <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s2">&quot;The data argument is not of type DataFrame&quot;</span><span class="p">)</span>
+    
+    <span class="c1"># Tests that the the grouping column is in the dataframe</span>
+    <span class="k">assert</span> <span class="n">grouping_col</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span> <span class="s2">&quot;The grouping column does not exist in the dataframe&quot;</span>
+    
+    <span class="c1"># Tests that the the mean_col column is in the dataframe</span>
+    <span class="k">assert</span> <span class="n">mean_col</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span> <span class="s2">&quot;The mean column does not exist in the dataframe&quot;</span>
+    
+    <span class="c1">#tests that the string_name in in the grouping_col</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">data</span><span class="p">[</span><span class="n">grouping_col</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">string_name</span><span class="p">)</span><span class="o">.</span><span class="n">any</span><span class="p">():</span>
+        <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s2">&quot;The string_name does appear in grouping_col&quot;</span><span class="p">)</span>
+    
+    <span class="c1"># compute count</span>
+    <span class="n">count</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">grouping_col</span><span class="p">)[</span><span class="n">mean_col</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="n">grouping_col</span><span class="p">)</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">string_name</span><span class="p">,</span><span class="n">mean_col</span><span class="p">]</span>
+
+    <span class="c1"># compute mean</span>
+    <span class="n">mean</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">grouping_col</span><span class="p">)[</span><span class="n">mean_col</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="n">grouping_col</span><span class="p">)</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">string_name</span><span class="p">,</span><span class="n">mean_col</span><span class="p">]</span>
+    
+    <span class="c1"># return the result</span>
+    <span class="k">return</span><span class="p">(</span><span class="n">count</span><span class="p">,</span> <span class="n">mean</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="equation-1">
+<h2>Equation 1<a class="headerlink" href="#equation-1" title="Permalink to this headline">#</a></h2>
+<p>The above function uses mean:</p>
+<div class="math notranslate nohighlight">
+\[
+{\bar{x} = {\frac {x_{1}+x_{2}+\cdots +x_{n}}{n}}}={\frac {1}{n}}\sum _{i=1}^{n}x_{i}
+\]</div>
+</section>
+<section id="code-block-2">
+<h2>code block 2<a class="headerlink" href="#code-block-2" title="Permalink to this headline">#</a></h2>
+<p>Here is the code used to create the below function test</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">its_the_final_function</span> <span class="kn">import</span> <span class="n">custom_count_mean</span>
+
+<span class="k">def</span> <span class="nf">test_one</span><span class="p">():</span>
+    <span class="n">raw</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1873</span><span class="p">,</span> <span class="mi">4913</span><span class="p">,</span> <span class="mi">4801</span><span class="p">,</span> <span class="mi">4540</span><span class="p">,</span> <span class="mi">3581</span><span class="p">,</span>
+                   <span class="mi">4534</span><span class="p">,</span> <span class="mi">1934</span><span class="p">,</span> <span class="mi">4944</span><span class="p">,</span> <span class="mi">1983</span><span class="p">,</span> <span class="mi">1266</span><span class="p">],</span> 
+           <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;English Oak&#39;</span><span class="p">,</span> <span class="s1">&#39;Higan Cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;Willow Oak&#39;</span><span class="p">,</span> 
+                    <span class="s1">&#39;Yoshino Cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;Red Oak&#39;</span><span class="p">,</span> <span class="s1">&#39;Kindred Spirit Oak&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;Garry Oak&#39;</span><span class="p">,</span> <span class="s1">&#39;Accolade Cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;Snow Goose Cherry&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;Evergreen Oak&#39;</span><span class="p">],</span> 
+            <span class="s1">&#39;neighbourhood&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Sunset&#39;</span><span class="p">,</span><span class="s1">&#39;West end&#39;</span><span class="p">,</span><span class="s1">&#39;Kitsilano&#39;</span><span class="p">,</span> <span class="s1">&#39;Sunset&#39;</span><span class="p">,</span> 
+                              <span class="s1">&#39;Arbutus-ridge&#39;</span><span class="p">,</span><span class="s1">&#39;Arbutus-ridge&#39;</span><span class="p">,</span> <span class="s1">&#39;Kitsilano&#39;</span><span class="p">,</span> 
+                              <span class="s1">&#39;West end&#39;</span><span class="p">,</span><span class="s1">&#39;Kitsilano&#39;</span><span class="p">,</span> <span class="s1">&#39;Arbutus-ridge&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Oak&#39;</span><span class="p">,</span> <span class="s1">&#39;Cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;Oak&#39;</span><span class="p">,</span> <span class="s1">&#39;Cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;Oak&#39;</span><span class="p">,</span>
+                     <span class="s1">&#39;Oak&#39;</span><span class="p">,</span> <span class="s1">&#39;Oak&#39;</span><span class="p">,</span> <span class="s1">&#39;Cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;Cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;Oak&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;diameter&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">9.0</span><span class="p">,</span> <span class="mf">27.0</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">,</span> <span class="mf">22.0</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">,</span>
+                         <span class="mf">6.5</span><span class="p">,</span> <span class="mf">12.0</span><span class="p">,</span> <span class="mf">18.0</span><span class="p">,</span> <span class="mf">8.5</span><span class="p">,</span> <span class="mf">23.0</span><span class="p">]}</span>
+    <span class="n">helper_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
+    
+    <span class="c1"># Tests that the expected count and mean are returned</span>
+    <span class="k">assert</span> <span class="n">custom_count_mean</span><span class="p">(</span><span class="n">helper_data</span><span class="p">,</span> <span class="s1">&#39;neighbourhood&#39;</span><span class="p">,</span> <span class="s1">&#39;Sunset&#39;</span><span class="p">,</span><span class="s1">&#39;diameter&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mf">15.5</span><span class="p">)</span>
+    <span class="k">return</span>
+
+<span class="k">def</span> <span class="nf">test_two</span><span class="p">():</span>
+    <span class="n">raw</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1873</span><span class="p">,</span> <span class="mi">4913</span><span class="p">,</span> <span class="mi">4801</span><span class="p">,</span> <span class="mi">4540</span><span class="p">,</span> <span class="mi">3581</span><span class="p">,</span>
+                   <span class="mi">4534</span><span class="p">,</span> <span class="mi">1934</span><span class="p">,</span> <span class="mi">4944</span><span class="p">,</span> <span class="mi">1983</span><span class="p">,</span> <span class="mi">1266</span><span class="p">],</span> 
+           <span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;English Oak&#39;</span><span class="p">,</span> <span class="s1">&#39;Higan Cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;Willow Oak&#39;</span><span class="p">,</span> 
+                    <span class="s1">&#39;Yoshino Cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;Red Oak&#39;</span><span class="p">,</span> <span class="s1">&#39;Kindred Spirit Oak&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;Garry Oak&#39;</span><span class="p">,</span> <span class="s1">&#39;Accolade Cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;Snow Goose Cherry&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;Evergreen Oak&#39;</span><span class="p">],</span> 
+            <span class="s1">&#39;neighbourhood&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Sunset&#39;</span><span class="p">,</span><span class="s1">&#39;West end&#39;</span><span class="p">,</span><span class="s1">&#39;Kitsilano&#39;</span><span class="p">,</span> <span class="s1">&#39;Sunset&#39;</span><span class="p">,</span> 
+                              <span class="s1">&#39;Arbutus-ridge&#39;</span><span class="p">,</span><span class="s1">&#39;Arbutus-ridge&#39;</span><span class="p">,</span> <span class="s1">&#39;Kitsilano&#39;</span><span class="p">,</span> 
+                              <span class="s1">&#39;West end&#39;</span><span class="p">,</span><span class="s1">&#39;Kitsilano&#39;</span><span class="p">,</span> <span class="s1">&#39;Arbutus-ridge&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Oak&#39;</span><span class="p">,</span> <span class="s1">&#39;Cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;Oak&#39;</span><span class="p">,</span> <span class="s1">&#39;Cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;Oak&#39;</span><span class="p">,</span>
+                     <span class="s1">&#39;Oak&#39;</span><span class="p">,</span> <span class="s1">&#39;Oak&#39;</span><span class="p">,</span> <span class="s1">&#39;Cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;Cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;Oak&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;diameter&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">9.0</span><span class="p">,</span> <span class="mf">27.0</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">,</span> <span class="mf">22.0</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">,</span>
+                         <span class="mf">6.5</span><span class="p">,</span> <span class="mf">12.0</span><span class="p">,</span> <span class="mf">18.0</span><span class="p">,</span> <span class="mf">8.5</span><span class="p">,</span> <span class="mf">23.0</span><span class="p">]}</span>
+    <span class="n">helper_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
+    
+    <span class="c1"># Tests that the expected count and mean are returned</span>
+    <span class="k">assert</span> <span class="n">custom_count_mean</span><span class="p">(</span><span class="n">helper_data</span><span class="p">,</span> <span class="s1">&#39;type&#39;</span><span class="p">,</span> <span class="s1">&#39;Cherry&#39;</span><span class="p">,</span><span class="s1">&#39;diameter&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mf">18.875</span><span class="p">)</span>
+    <span class="k">return</span>
+</pre></div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -374,15 +682,15 @@ title="Print to PDF"
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>======================================================== test session starts ========================================================
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>==================================================================== test session starts ====================================================================
 platform win32 -- Python 3.9.12, pytest-7.2.0, pluggy-1.0.0
 rootdir: C:\Users\cliff\final-assignment-8\assignment-8-book
 plugins: anyio-3.6.1
 collected 2 items
 
-scripts\final_test.py ..                                                                                                       [100%]
+scripts\final_test.py ..                                                                                                                               [100%]
 
-========================================================= 2 passed in 1.54s =========================================================
+===================================================================== 2 passed in 1.40s =====================================================================
 </pre></div>
 </div>
 </div>
@@ -396,18 +704,20 @@ scripts\final_test.py ..                                                        
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span> <span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1">#how many disney movies has Kristen Bell appeared in and how much did they gross after inflation on average?</span>
-<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">kristen_bell</span> <span class="o">=</span> <span class="n">ff</span><span class="o">.</span><span class="n">custom_count_mean</span><span class="p">(</span><span class="n">movie_rev_actor</span><span class="p">,</span><span class="s1">&#39;voice-actor&#39;</span><span class="p">,</span> <span class="s1">&#39;Kristen Bell&#39;</span><span class="p">,</span> <span class="s1">&#39;inflation_adjusted_gross&#39;</span><span class="p">)</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">kristen_bell</span>
-
-<span class="ne">NameError</span>: name &#39;movie_rev_actor&#39; is not defined
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(1, 414997174.0)
 </pre></div>
 </div>
 </div>
 </div>
+</section>
+<section id="insert-image-1">
+<h2>Insert image 1<a class="headerlink" href="#insert-image-1" title="Permalink to this headline">#</a></h2>
+<figure class="align-default" id="kristen-bell">
+<a class="reference internal image-reference" href="_images/kristen-bell.png"><img alt="Krissy B" src="_images/kristen-bell.png" style="width: 25%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Image of Kristen Bell</span><a class="headerlink" href="#kristen-bell" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#now lets try John Goodman</span>
@@ -417,7 +727,21 @@ scripts\final_test.py ..                                                        
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(2, 126552854.5)
+</pre></div>
 </div>
+</div>
+</div>
+</section>
+<section id="insert-image-2">
+<h2>Insert image 2<a class="headerlink" href="#insert-image-2" title="Permalink to this headline">#</a></h2>
+<figure class="align-default" id="john-goodman">
+<a class="reference internal image-reference" href="_images/john-goodman.png"><img alt="Johny G" src="_images/john-goodman.png" style="width: 50%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Image of John Goodman</span><a class="headerlink" href="#john-goodman" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p>To how average revenue by actor compares to the overall average we will need to calcucate the overall average movie revenue for movies released since 1999.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -426,6 +750,94 @@ scripts\final_test.py ..                                                        
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>index</th>
+      <th>movie_title</th>
+      <th>release_date</th>
+      <th>genre</th>
+      <th>MPAA_rating</th>
+      <th>total_gross</th>
+      <th>inflation_adjusted_gross</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>297</th>
+      <td>300</td>
+      <td>300</td>
+      <td>My Favorite Martian</td>
+      <td>1999-02-12</td>
+      <td>Comedy</td>
+      <td>PG</td>
+      <td>36850101.0</td>
+      <td>61150849.0</td>
+    </tr>
+    <tr>
+      <th>298</th>
+      <td>301</td>
+      <td>301</td>
+      <td>The Other Sister</td>
+      <td>1999-02-26</td>
+      <td>Romantic Comedy</td>
+      <td>PG-13</td>
+      <td>27807627.0</td>
+      <td>46145331.0</td>
+    </tr>
+    <tr>
+      <th>299</th>
+      <td>302</td>
+      <td>302</td>
+      <td>Doug's 1st Movie</td>
+      <td>1999-03-26</td>
+      <td>Adventure</td>
+      <td>G</td>
+      <td>19421271.0</td>
+      <td>32228598.0</td>
+    </tr>
+    <tr>
+      <th>300</th>
+      <td>303</td>
+      <td>303</td>
+      <td>Ten Things I Hate About You</td>
+      <td>1999-03-31</td>
+      <td>Romantic Comedy</td>
+      <td>PG-13</td>
+      <td>38177966.0</td>
+      <td>63354375.0</td>
+    </tr>
+    <tr>
+      <th>301</th>
+      <td>304</td>
+      <td>304</td>
+      <td>Endurance</td>
+      <td>1999-05-14</td>
+      <td>unknown</td>
+      <td>PG</td>
+      <td>229128.0</td>
+      <td>380218.0</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
 </div>
 <p>Above I test the function against some helper data to ensure it is returning the correct values</p>
 <div class="cell docutils container">
@@ -438,8 +850,246 @@ scripts\final_test.py ..                                                        
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>111235899.49640287
+</pre></div>
+</div>
+</div>
 </div>
 <p>Above I test the function against some helper data to ensure it is returning the correct values</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">movie_rev_1999_group</span> <span class="o">=</span> <span class="n">movie_rev_1999</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;genre&#39;</span><span class="p">)[</span><span class="s1">&#39;inflation_adjusted_gross&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">movie_rev_1999_group</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+
+<span class="n">movie_rev_1999_group</span> <span class="o">=</span> <span class="n">movie_rev_1999_group</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">movie_rev_1999_group</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>genre</th>
+      <th>inflation_adjusted_gross</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Adventure</td>
+      <td>1.585306e+10</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Comedy</td>
+      <td>5.022959e+09</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Action</td>
+      <td>3.507162e+09</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Drama</td>
+      <td>2.810345e+09</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Thriller/Suspense</td>
+      <td>1.650202e+09</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p>Here is are two more interesting charts we can use to visualize the data</p>
+<section id="hidden-content-chart-1">
+<h3>hidden content chart #1<a class="headerlink" href="#hidden-content-chart-1" title="Permalink to this headline">#</a></h3>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#plot by genre</span>
+
+<span class="n">genre_rev_plot</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">movie_rev_1999_group</span><span class="p">[:</span><span class="mi">10</span><span class="p">],</span> <span class="n">width</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">mark_bar</span><span class="p">()</span>
+    <span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+        <span class="n">x</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s2">&quot;genre:N&quot;</span><span class="p">,</span><span class="n">sort</span><span class="o">=</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Genre&quot;</span><span class="p">),</span>
+        <span class="n">y</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s2">&quot;inflation_adjusted_gross:Q&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Movie Revenue by genre&quot;</span><span class="p">),</span>
+    <span class="p">)</span>
+    <span class="o">.</span><span class="n">properties</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&quot;Figure 1: Top 10 Movie Revenue inflation adjusted by genre since 1999&quot;</span><span class="p">)</span>
+<span class="p">)</span>
+<span class="n">genre_rev_plot</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<div id="altair-viz-57d5fd2822a64a87834a9747410f07fa"></div>
+<script type="text/javascript">
+  var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-57d5fd2822a64a87834a9747410f07fa") {
+      outputDiv = document.getElementById("altair-viz-57d5fd2822a64a87834a9747410f07fa");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.17.0?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function maybeLoadScript(lib, version) {
+      var key = `${lib.replace("-", "")}_version`;
+      return (VEGA_DEBUG[key] == version) ?
+        Promise.resolve(paths[lib]) :
+        new Promise(function(resolve, reject) {
+          var s = document.createElement('script');
+          document.getElementsByTagName("head")[0].appendChild(s);
+          s.async = true;
+          s.onload = () => {
+            VEGA_DEBUG[key] = version;
+            return resolve(paths[lib]);
+          };
+          s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+          s.src = paths[lib];
+        });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else {
+      maybeLoadScript("vega", "5")
+        .then(() => maybeLoadScript("vega-lite", "4.17.0"))
+        .then(() => maybeLoadScript("vega-embed", "6"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-547436b9116d0b81dfa0ea94ae84441b"}, "mark": "bar", "encoding": {"x": {"field": "genre", "sort": "-y", "title": "Genre", "type": "nominal"}, "y": {"field": "inflation_adjusted_gross", "title": "Movie Revenue by genre", "type": "quantitative"}}, "height": 300, "title": "Figure 1: Top 10 Movie Revenue inflation adjusted by genre since 1999", "width": 1000, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-547436b9116d0b81dfa0ea94ae84441b": [{"genre": "Adventure", "inflation_adjusted_gross": 15853055338.0}, {"genre": "Comedy", "inflation_adjusted_gross": 5022958819.0}, {"genre": "Action", "inflation_adjusted_gross": 3507162231.0}, {"genre": "Drama", "inflation_adjusted_gross": 2810345432.0}, {"genre": "Thriller/Suspense", "inflation_adjusted_gross": 1650201771.0}, {"genre": "Romantic Comedy", "inflation_adjusted_gross": 835948971.0}, {"genre": "Musical", "inflation_adjusted_gross": 414011101.0}, {"genre": "Western", "inflation_adjusted_gross": 384944881.0}, {"genre": "Documentary", "inflation_adjusted_gross": 203488418.0}, {"genre": "Concert/Performance", "inflation_adjusted_gross": 114821678.0}]}}, {"mode": "vega-lite"});
+</script></div></div>
+</div>
+</section>
+<section id="hidden-input-chart-2">
+<h3>hidden input chart #2<a class="headerlink" href="#hidden-input-chart-2" title="Permalink to this headline">#</a></h3>
+<p>Here is the same data in a pie chart</p>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">genre_rev_pie</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">movie_rev_1999_group</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">mark_arc</span><span class="p">()</span>
+    <span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+        <span class="n">theta</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Theta</span><span class="p">(</span><span class="s2">&quot;inflation_adjusted_gross:Q&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Movie revenue by Genre&quot;</span><span class="p">),</span>
+        <span class="n">color</span><span class="o">=</span><span class="n">alt</span><span class="o">.</span><span class="n">Color</span><span class="p">(</span><span class="s2">&quot;genre:N&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Genre&quot;</span><span class="p">),</span>
+    <span class="p">)</span>
+    <span class="o">.</span><span class="n">properties</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&quot;Figure 2: Movie Revenue inflation adjusted by genre since 1999&quot;</span><span class="p">)</span>
+<span class="p">)</span>
+<span class="n">genre_rev_pie</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<div id="altair-viz-035b4c214c98419b98b5c055a71e8460"></div>
+<script type="text/javascript">
+  var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-035b4c214c98419b98b5c055a71e8460") {
+      outputDiv = document.getElementById("altair-viz-035b4c214c98419b98b5c055a71e8460");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.17.0?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function maybeLoadScript(lib, version) {
+      var key = `${lib.replace("-", "")}_version`;
+      return (VEGA_DEBUG[key] == version) ?
+        Promise.resolve(paths[lib]) :
+        new Promise(function(resolve, reject) {
+          var s = document.createElement('script');
+          document.getElementsByTagName("head")[0].appendChild(s);
+          s.async = true;
+          s.onload = () => {
+            VEGA_DEBUG[key] = version;
+            return resolve(paths[lib]);
+          };
+          s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+          s.src = paths[lib];
+        });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else {
+      maybeLoadScript("vega", "5")
+        .then(() => maybeLoadScript("vega-lite", "4.17.0"))
+        .then(() => maybeLoadScript("vega-embed", "6"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-19f2a85860d9ee6db430196295e827f3"}, "mark": "arc", "encoding": {"color": {"field": "genre", "title": "Genre", "type": "nominal"}, "theta": {"field": "inflation_adjusted_gross", "title": "Movie revenue by Genre", "type": "quantitative"}}, "title": "Figure 2: Movie Revenue inflation adjusted by genre since 1999", "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-19f2a85860d9ee6db430196295e827f3": [{"genre": "Adventure", "inflation_adjusted_gross": 15853055338.0}, {"genre": "Comedy", "inflation_adjusted_gross": 5022958819.0}, {"genre": "Action", "inflation_adjusted_gross": 3507162231.0}, {"genre": "Drama", "inflation_adjusted_gross": 2810345432.0}, {"genre": "Thriller/Suspense", "inflation_adjusted_gross": 1650201771.0}, {"genre": "Romantic Comedy", "inflation_adjusted_gross": 835948971.0}, {"genre": "Musical", "inflation_adjusted_gross": 414011101.0}, {"genre": "Western", "inflation_adjusted_gross": 384944881.0}, {"genre": "Documentary", "inflation_adjusted_gross": 203488418.0}, {"genre": "Concert/Performance", "inflation_adjusted_gross": 114821678.0}, {"genre": "Black Comedy", "inflation_adjusted_gross": 76758193.0}, {"genre": "Horror", "inflation_adjusted_gross": 49165227.0}, {"genre": "unknown", "inflation_adjusted_gross": 718000.0}]}}, {"mode": "vega-lite"});
+</script></div></div>
+</div>
+</section>
+</section>
+<section id="possible-future-analysis">
+<h2>possible future analysis<a class="headerlink" href="#possible-future-analysis" title="Permalink to this headline">#</a></h2>
+<p>In the future project to could be useful to run a linear regression analysis of the data sets. This could help show us any correlation between different variables in the data. Below is one formula that might be helpful in that analysis:</p>
+<section id="equation-2">
+<h3>Equation 2<a class="headerlink" href="#equation-2" title="Permalink to this headline">#</a></h3>
+<p>Sample Regression line:</p>
+<div class="math notranslate nohighlight">
+\[
+\begin{equation}
+\hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1 X_i + \hat{\epsilon}_i
+\end{equation}
+\]</div>
+<p>Source: <a class="reference external" href="https://linareskevin.wordpress.com/2015/09/17/linear-regression-equation-in-latex-using-texmaths-under-libreoffice/">https://linareskevin.wordpress.com/2015/09/17/linear-regression-equation-in-latex-using-texmaths-under-libreoffice/</a></p>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">

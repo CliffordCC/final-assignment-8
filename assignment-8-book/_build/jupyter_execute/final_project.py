@@ -148,9 +148,17 @@ movie_rev = movie_rev[movie_rev['total_gross'] != 0]
 movie_rev.sort_values(by='total_gross', ascending=True).head()
 
 
-# Now that the dataframes have been cleaned I will merge them together so that that we can work with them in one dataframe.
+# saving cleaned dataframe so I can reference in another notebook
 
 # In[12]:
+
+
+movie_rev.to_csv('data/movie_rev_cleaned.csv')
+
+
+# Now that the dataframes have been cleaned I will merge them together so that that we can work with them in one dataframe.
+
+# In[13]:
 
 
 #rename "movie_title" column to so the dataframes are consistent
@@ -174,10 +182,18 @@ movie_rev_actor.head()
 ## make sure all voice-actor with eligable movies are in the dataframe
 
 
+# Saving new data frame as csv so it can be referenced in other files
+
+# In[14]:
+
+
+movie_rev_actor.to_csv('data/movie_rev_actor.csv')
+
+
 # We now have a dataframe that can be used for analyzing revenue by voice actor. However our inquiry question above only cares about modern movies. Below I am going to filter movies that were released before January 1st 1999.
 # 
 
-# In[13]:
+# In[15]:
 
 
 #remove all films that were releassed before 1999, to ensure the data is somewhat relative to modern day
@@ -213,7 +229,7 @@ movie_rev_actor.sort_values(by='release_date', ascending=True).head()
 # 
 # 
 
-# In[14]:
+# In[16]:
 
 
 # group by voice actor and compute the average number of parts.
@@ -230,7 +246,7 @@ rev_actor_group.head()
 
 # # Hidden input graph 1
 
-# In[15]:
+# In[17]:
 
 
 #plot top 20 highest averages using altiar. input hidden
@@ -270,7 +286,7 @@ voice_actor_plot
 
 # How many movies did each actor star in? 
 
-# In[16]:
+# In[18]:
 
 
 # group by year and compute the average number of parts.
@@ -284,7 +300,7 @@ count_actor_group.head()
 
 # # Hidden input graph 2
 
-# In[17]:
+# In[19]:
 
 
 #plot top 75 highest appearance in movies using altiar input hidden
@@ -323,14 +339,14 @@ count_actor_plot
 
 # Now I will create a function the reads in a dataframe and returns the counts and average of a specific columns for a specific string. This will be a helpful tool to quickly see how many movies a given actor has been in and how much revenue they have grossed on average per moive. However, it can also be used to get other interesting stats such as revenue by genre and it can be reused on any dataframe that contains columns with strings and columns with floats.
 
-# In[18]:
+# In[20]:
 
 
 #import function
 from scripts import its_the_final_function as ff
 
 
-# In[19]:
+# In[21]:
 
 
 #test function
@@ -338,7 +354,7 @@ from scripts import its_the_final_function as ff
 get_ipython().system('pytest scripts\\final_test.py')
 
 
-# In[20]:
+# In[22]:
 
 
 #how many disney movies has Kristen Bell appeared in and how much did they gross after inflation on average?
@@ -346,7 +362,7 @@ kristen_bell = ff.custom_count_mean(movie_rev_actor,'voice-actor', 'Kristen Bell
 kristen_bell
 
 
-# In[21]:
+# In[23]:
 
 
 #now lets try John Goodman
@@ -357,16 +373,16 @@ john_goodman
 
 # To see how average revenue by actor compares to the overall average we will need to calucate the overall average movie revenue for movies released since 1999.
 
-# In[22]:
+# In[24]:
 
 
-movie_rev_1999 = movie_rev.loc[(movie_rev['release_date'] >= '1999-01-01')]
-movie_rev_1999.sort_values(by='release_date', ascending=True).head()
+movie_rev_1999 = movie_rev.loc[(movie_rev['release_date'] >= "1999-01-01")]
+movie_rev_1999.sort_values(by='inflation_adjusted_gross', ascending=True).head()
 
 
 # Above I test the function against some helper data to ensure it is returning the correct values
 
-# In[23]:
+# In[25]:
 
 
 #Find mean movie revenue of movie realeased after 1999-01-01
