@@ -446,11 +446,6 @@ title="Print to PDF"
   </ul>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#discussions">
-   Discussions
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#references">
    References
   </a>
@@ -570,11 +565,6 @@ title="Print to PDF"
     </a>
    </li>
   </ul>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#discussions">
-   Discussions
-  </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#references">
@@ -1491,13 +1481,13 @@ None
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-e8550334292e4d19bfb9b29a3fc8e498"></div>
+<div id="altair-viz-9e8d65002e4947a6b7663f799f38f207"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-e8550334292e4d19bfb9b29a3fc8e498") {
-      outputDiv = document.getElementById("altair-viz-e8550334292e4d19bfb9b29a3fc8e498");
+    if (outputDiv.id !== "altair-viz-9e8d65002e4947a6b7663f799f38f207") {
+      outputDiv = document.getElementById("altair-viz-9e8d65002e4947a6b7663f799f38f207");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -1652,13 +1642,13 @@ None
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-5eb552003ace4c9582bf6f4f2574a35b"></div>
+<div id="altair-viz-d326d72d201541d59cc09d5f031a310c"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-5eb552003ace4c9582bf6f4f2574a35b") {
-      outputDiv = document.getElementById("altair-viz-5eb552003ace4c9582bf6f4f2574a35b");
+    if (outputDiv.id !== "altair-viz-d326d72d201541d59cc09d5f031a310c") {
+      outputDiv = document.getElementById("altair-viz-d326d72d201541d59cc09d5f031a310c");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -1723,182 +1713,7 @@ None
 </pre></div>
 </div>
 <p>The above plot shows us the that there relatively few actors who have not more than one film since 1999. We can see that Kirsten Bell has the highest grossing average but has only starred in one movie.</p>
-<p>Now I will create a function the reads in a dataframe and returns the counts and average of a specific columns for a specific string. This will be a helpful tool to quickly see how many movies a given actor has been in and how much revenue they have grossed on average per moive. However, it can also be used to get other interesting stats such as revenue by genre and it can be reused on any dataframe that contains columns with strings and columns with floats.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#import function</span>
-<span class="kn">from</span> <span class="nn">scripts</span> <span class="kn">import</span> <span class="n">its_the_final_function</span> <span class="k">as</span> <span class="n">ff</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#test function</span>
-
-<span class="o">!</span>pytest scripts<span class="se">\f</span>inal_test.py
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>==================================================================== test session starts ====================================================================
-platform win32 -- Python 3.9.12, pytest-7.2.0, pluggy-1.0.0
-rootdir: C:\Users\cliff\final-assignment-8\assignment-8-book
-plugins: anyio-3.6.1
-collected 2 items
-
-scripts\final_test.py ..                                                                                                                               [100%]
-
-===================================================================== 2 passed in 0.77s =====================================================================
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#how many disney movies has Kristen Bell appeared in and how much did they gross after inflation on average?</span>
-<span class="n">kristen_bell</span> <span class="o">=</span> <span class="n">ff</span><span class="o">.</span><span class="n">custom_count_mean</span><span class="p">(</span><span class="n">movie_rev_actor</span><span class="p">,</span><span class="s1">&#39;voice-actor&#39;</span><span class="p">,</span> <span class="s1">&#39;Kristen Bell&#39;</span><span class="p">,</span> <span class="s1">&#39;inflation_adjusted_gross&#39;</span><span class="p">)</span>
-<span class="n">kristen_bell</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(1, 414997174.0)
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#now lets try John Goodman</span>
-
-<span class="n">john_goodman</span> <span class="o">=</span> <span class="n">ff</span><span class="o">.</span><span class="n">custom_count_mean</span><span class="p">(</span><span class="n">movie_rev_actor</span><span class="p">,</span><span class="s1">&#39;voice-actor&#39;</span><span class="p">,</span> <span class="s1">&#39;John Goodman&#39;</span><span class="p">,</span> <span class="s1">&#39;inflation_adjusted_gross&#39;</span><span class="p">)</span>
-<span class="n">john_goodman</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(2, 126552854.5)
-</pre></div>
-</div>
-</div>
-</div>
-<p>To see how average revenue by actor compares to the overall average we will need to calucate the overall average movie revenue for movies released since 1999.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">movie_rev_1999</span> <span class="o">=</span> <span class="n">movie_rev</span><span class="o">.</span><span class="n">loc</span><span class="p">[(</span><span class="n">movie_rev</span><span class="p">[</span><span class="s1">&#39;release_date&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="s2">&quot;1999-01-01&quot;</span><span class="p">)]</span>
-<span class="n">movie_rev_1999</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">&#39;inflation_adjusted_gross&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>index</th>
-      <th>movie</th>
-      <th>release_date</th>
-      <th>genre</th>
-      <th>MPAA_rating</th>
-      <th>total_gross</th>
-      <th>inflation_adjusted_gross</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>511</th>
-      <td>511</td>
-      <td>Zokkomon</td>
-      <td>2011-04-22</td>
-      <td>Adventure</td>
-      <td>PG</td>
-      <td>2815.0</td>
-      <td>2984.0</td>
-    </tr>
-    <tr>
-      <th>487</th>
-      <td>487</td>
-      <td>Walt and El Grupo</td>
-      <td>2009-09-10</td>
-      <td>Documentary</td>
-      <td>PG</td>
-      <td>20521.0</td>
-      <td>23064.0</td>
-    </tr>
-    <tr>
-      <th>502</th>
-      <td>502</td>
-      <td>Gedo Senki (Tales from Earthsea)</td>
-      <td>2010-08-13</td>
-      <td>Adventure</td>
-      <td>PG-13</td>
-      <td>48658.0</td>
-      <td>51988.0</td>
-    </tr>
-    <tr>
-      <th>495</th>
-      <td>495</td>
-      <td>Waking Sleeping Beauty</td>
-      <td>2010-03-26</td>
-      <td>Documentary</td>
-      <td>PG</td>
-      <td>80741.0</td>
-      <td>86264.0</td>
-    </tr>
-    <tr>
-      <th>470</th>
-      <td>470</td>
-      <td>Goal! 2: Living the Dream...</td>
-      <td>2008-08-29</td>
-      <td>Drama</td>
-      <td>PG-13</td>
-      <td>225067.0</td>
-      <td>264247.0</td>
-    </tr>
-  </tbody>
-</table>
-</div></div></div>
-</div>
-<p>Above I test the function against some helper data to ensure it is returning the correct values</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#Find mean movie revenue of movie realeased after 1999-01-01</span>
-
-<span class="n">mean_rev_a1999</span>  <span class="o">=</span><span class="n">movie_rev_1999</span><span class="p">[</span><span class="s1">&#39;inflation_adjusted_gross&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
-
-<span class="n">mean_rev_a1999</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>111235899.49640287
-</pre></div>
-</div>
-</div>
-</div>
-<p>Above we can see that Kristen Bell and John Goodman appear in one and two films respectively since 1999 but that the movies they were in grossed above the average movie released by disney since 1999.</p>
 </section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="discussions">
-<h1>Discussions<a class="headerlink" href="#discussions" title="Permalink to this headline">#</a></h1>
-<p>In the analysis I tried compute average revenue of movies starred in by each voice actor and the average number of movies they had starred in since 1999. First I imported the relavant datasets and then using <code class="docutils literal notranslate"><span class="pre">.info()</span></code> looked at how the data was being stored. I then cleaned and and merged the <code class="docutils literal notranslate"><span class="pre">disney_voice_actor</span></code> dataset with the <code class="docutils literal notranslate"><span class="pre">disney_movies_total_revenue</span></code> data set. I then performed several visualizations that helped me answer my intitial question. I also created a function that pulls the the number of movies and average revenue per movie for a specfic actor. This acts a search function of the data. I is usefull for looking up specfic information on a specfic actor.</p>
-<p>I was quite suprised by my results. Very few actors appeared in more that one movie since 1999. Further the actors who appeared in more films generally had a lower average movie revenue for the movies they starred in. I expected that disney would cast actors more often once they had a successfull movie but that does to appear to be what is happening. This could be becuase the genre and theme of the movie matter more than the actors who starred in them.</p>
-<p>One interesting question to explore on this data could be to see if there is a correlation between average revenue by genre and number of movies created under that specific genre. It would be very interesting to compare the results of that analysis to my results. It could also be interesting to expand that analysis beyond just disney movies if those datasets exist. This would interesting becuase it would allow disney to begin focus that production budgets on genres and actors that on avergae earn the studio more revenue.</p>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="references">
 <h1>References<a class="headerlink" href="#references" title="Permalink to this headline">#</a></h1>

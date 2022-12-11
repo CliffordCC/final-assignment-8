@@ -6,7 +6,7 @@ In the analysis I will be investigating questions related to the revenue and dis
 
 ## Dataset description 
 
-The below descripitions were taken directly from the [website](https://www.kaggle.com/prateekmaj21/disney-movies) where the datasets were originally obtained.
+The below descripitions were taken directly from the [website](https://www.kaggle.com/prateekmaj21/disney-movies) (Majumder, 2020) where the datasets were originally obtained.
 
 "All Disney movies with their release dates, genre, rating, total gross and inflation adjusted gross(2016).
 Disney has produced many movies, this data has all Disney movies till 2016."
@@ -28,8 +28,11 @@ $$
 
 $$
 {Med{(X)} = \frac{X[\frac {n}{2}]+X[\frac{n}{2}+1]}{2}{\text{if n is even}}}
++++
+{Med{(X)} = \frac{X[\frac {n}{2}]+X[\frac{n}{2}+1]}{2}{\text{if n is even}}}
++++
+\text{Where X=ordered list}
 $$
-Where X = ordered list
 
 ### Standard Deviation:
 
@@ -38,7 +41,7 @@ Where X = ordered list
 \sigma = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
 ```
 ```{margin} Did you know?
-Did you know the Karl Pearson introduced procedure and term standard deviation to statistics in 1892.
+Did you know the Karl Pearson introduced procedure and term standard deviation to statistics in 1892.(encyclopedia.com,2022)
 ```
 
 ###  Variance:
@@ -47,10 +50,12 @@ Did you know the Karl Pearson introduced procedure and term standard deviation t
 :label: Var
 \sigma ^2 = {\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
 ```
+(Linares, 2015)
 
 ```{tip} 
 Std dev is just the square root of the variance [https://www.encyclopedia.com/science-and-technology/mathematics/mathematics/standard-deviation]
 ```
+(Linares, 2015)
 
 ## Python literacy requirement:
 
@@ -84,7 +89,7 @@ count_actor_plot
 ```
 
 ```{note} 
-Python was the second most used programming laungauge in 2022 [https://octoverse.github.com/2022/top-programming-languages]
+Python was the second most used programming laungauge in 2022 (State of the Octoverse, nd)
 
 ```
 

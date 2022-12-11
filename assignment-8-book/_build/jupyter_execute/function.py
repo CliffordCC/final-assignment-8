@@ -3,6 +3,8 @@
 
 # # Function and More exploration
 
+# Now I will create a function the reads in a dataframe and returns the counts and average of a specific columns for a specific string. This will be a helpful tool to quickly see how many movies a given actor has been in and how much revenue they have grossed on average per moive. However, it can also be used to get other interesting stats such as revenue by genre and it can be reused on any dataframe that contains columns with strings and columns with floats.
+
 # In[1]:
 
 
@@ -285,6 +287,5 @@ genre_rev_pie
 # \hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1 X_i + \hat{\epsilon}_i
 # \end{equation}
 # $$
-# 
-# Source: https://linareskevin.wordpress.com/2015/09/17/linear-regression-equation-in-latex-using-texmaths-under-libreoffice/
+# (Linares, 2015)
 # 
