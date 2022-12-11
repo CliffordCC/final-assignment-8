@@ -28,8 +28,11 @@ $$
 
 $$
 {Med{(X)} = \frac{X[\frac {n}{2}]+X[\frac{n}{2}+1]}{2}{\text{if n is even}}}
++++
+{Med{(X)} = \frac{X[\frac {n}{2}]+X[\frac{n}{2}+1]}{2}{\text{if n is even}}}
++++
+\text{Where X=ordered list}
 $$
-Where X = ordered list
 
 ### Standard Deviation:
 
